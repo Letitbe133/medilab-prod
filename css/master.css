@@ -1,0 +1,420 @@
+/* Charte graphique
+
+Vert foncé titres : 197648ff (25, 118, 72)
+Rouge : e5322dff (229, 50, 45)
+Vert clair pictos : 3fd68bff (63, 214, 139)
+Bleu : 0097c6ff (0, 151, 198)
+
+
+*/
+
+/* Helpers material-icons*/
+
+.material-icons.md-18 { font-size: 18px; }
+
+.material-icons.md-24 { font-size: 24px; }
+
+.material-icons.md-36 { font-size: 36px; }
+
+.material-icons.md-48 { font-size: 48px; }
+
+.material-icons.md-60 { font-size: 60px; }
+
+/* Base colours */
+
+.dark-green {
+  color: rgba(25, 118, 72, 1);
+  background-color: transparent;
+}
+
+.pale-green {
+  color: rgba(63, 214, 139, 1);
+  background-color: transparent;
+}
+
+.dark-red {
+  color: rgba(229, 50, 45, 1);
+  background-color: transparent;
+}
+
+.blue {
+  color: rgba(0, 151, 198, 1);
+  background-color: transparent;
+}
+
+/*#partners-logos img {
+  display: none;
+}
+
+.activeImage {
+  display: block!important;
+}*/
+
+
+/* Style général */
+
+html, body {
+  font-family: sans-serif;
+  color: #777777;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+}
+
+h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.7rem;
+}
+.brand-logo {
+	padding: 5px!important;
+}
+a, a:active, a:visited {
+  text-decoration: none;
+}
+
+.parallax-container {
+      height: 66vh;
+    }
+#parallax-3 {
+		height:200px;
+
+}
+#parallax-2 {
+		height: 400px;
+}
+
+.tagline, .tagline a {
+  color: white;
+}
+
+.tagline {
+  position: absolute;
+  width: 100%;
+  top: 15%;
+}
+
+.tagline h2 {
+  font-family: sans-serif;
+  font-size: 1.5rem;
+}
+
+/* Menu */
+
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: white;
+  /*padding-right: 10vw;*/
+}
+
+.nav-wrapper li>a, .side-nav li>a{
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5rem;
+  padding-bottom: 30px;
+  color: rgba(25, 118, 72, 1);
+}
+
+.table-of-contents a.active {
+  border-bottom: 4px solid rgba(229, 50, 45, 1);
+  border-left: none;
+}
+
+.table-of-contents a:hover {
+  background-color: transparent;
+  border-left: none;
+}
+
+.table-of-contents li:hover {
+  background-color: rgba(0,0,0,0.1);
+  transition: background-color .3s;
+}
+
+.button-collapse i {
+  color: rgba(229, 50, 45, 1);
+}
+.btn {
+	background-color:#45B2D5;
+}
+#sidenav-overlay {
+  z-index: 0;
+}
+
+#mobile-menu {
+  opacity: .9;
+  width: 200px;
+}
+
+section h3, section>form, #contact form {
+  margin-top: 2rem;
+}
+
+section p {
+  margin-top: 3rem;
+}
+
+.underline {
+  border-bottom: 7px solid red;
+}
+
+footer {
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+}
+.emphase {
+	margin: 20px 0;
+	padding-left: 1.5rem;
+	border-left-color: grey!important;
+	border-left-width: 3px;
+	border-left-style: solid;
+}
+footer h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+footer h3 {
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+.divider+div {
+  margin-top: 1rem;
+}
+
+#partners-logos {
+  padding: 3rem 0rem;
+}
+.no-margin-bottom {
+	padding-bottom: 20px;
+	margin-bottom: 0px;
+}
+#search_bar {
+  box-sizing: border-box!important;
+}
+
+#pictos img {
+  height: 70px;
+}
+
+#pictos p{
+	margin-bottom: 90px;
+}
+
+#amm {
+  margin-top: 20px;
+}
+
+#partners {
+	padding-bottom: 0px;
+}
+
+#network {
+	margin-top: -50px;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+#picto-location {
+	padding-top: 70px;
+}
+.logo {
+	padding: 20px!important;
+}
+
+/* Indicateurs slider */
+.indicators .indicator-item {
+  background-color: lightgrey!important;
+  height: 16px!important;
+  width: 16px!important;
+}
+
+.indicators .active {
+  background-color: rgba(25, 118, 72, 1)!important;
+}
+
+/* Slider css */
+.slider-css {
+  position: relative;
+  margin: 0 auto;
+  width: 320px;
+  overflow: hidden;
+}
+
+.mask {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  opacity: 0.2;
+  z-index: 999;
+}
+
+.slides {
+  width: calc(320px * 7);
+  animation: slide 20s ease infinite 2s;
+}
+
+.slide {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  05% {
+    transform: translateX(0);
+  }
+  14.3% {
+    transform: translateX(-320px);
+  }
+  19.3% {
+    transform: translateX(-320px);
+  }
+  28.6% {
+    transform: translateX(-640px);
+  }
+  33.6% {
+    transform: translateX(-640px);
+  }
+  42.9% {
+    transform: translateX(-960px);
+  }
+  47.9% {
+    transform: translateX(-960px);
+  }
+  57.2% {
+    transform: translateX(-1280px);
+  }
+  62.2% {
+    transform: translateX(-1280px);
+  }
+  71.5% {
+    transform: translateX(-1600px);
+  }
+  76.5% {
+    transform: translateX(-1600px);
+  }
+  85.8% {
+    transform: translateX(-1920px);
+  }
+  90.8% {
+    transform: translateX(-1920px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@media (min-width: 992px) {
+  h1 {
+    font-size: 5rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  .parallax-container {
+        height: 70vh;
+      }
+
+  .tagline {
+    top: 35%;
+  }
+
+  .tagline h2 {
+    font-size: 1.7rem;
+  }
+
+  .nav-wrapper li>a, .side-nav li>a{
+    font-size: 1.2rem;
+  }
+
+  section h2 {
+    margin-top: 3rem;
+  }
+
+  #pictos {
+    padding-top: 3rem;
+  }
+
+  #pictos img {
+    width: auto;
+  }
+
+  #network div img {
+    width: 45%;
+  }
+
+  .slider-css {
+    width: 520px;
+  }
+
+  .slides {
+    width: calc(520px * 7);
+  }
+
+  .slider-css .slides .slide img {
+    width: 500px;
+  }
+
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    05% {
+      transform: translateX(0);
+    }
+    14.3% {
+      transform: translateX(-520px);
+    }
+    19.3% {
+      transform: translateX(-520px);
+    }
+    28.6% {
+      transform: translateX(-1040px);
+    }
+    33.6% {
+      transform: translateX(-1040px);
+    }
+    42.9% {
+      transform: translateX(-1560px);
+    }
+    47.9% {
+      transform: translateX(-1560px);
+    }
+    57.2% {
+      transform: translateX(-2080px);
+    }
+    62.2% {
+      transform: translateX(-2080px);
+    }
+    71.5% {
+      transform: translateX(-2600px);
+    }
+    76.5% {
+      transform: translateX(-2600px);
+    }
+    85.8% {
+      transform: translateX(-3120px);
+    }
+    90.8% {
+      transform: translateX(-3120px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+
+
+}
