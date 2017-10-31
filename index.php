@@ -143,14 +143,45 @@
                           Our specialties received an MAA in 14 countries.
                           <div class="">
                             <ul id="productsList" class="collapsible" data-collapsible="accordion">
-                              <li >
+                            <?php
+
+                              $json_source = file_get_contents('products.json');
+                              $gamme = json_decode($json_source);
+                              foreach ($gamme->{'mollecule'} as $key) {
+                            ?>
+
+                                <li>
+                                  <div class="collapsible-header"><?php echo($key->{'name'}); ?></div>
+                                  <div class="collapsible-body">
+                                    <ul class="<?php echo($key->{'name'}); ?>">
+                                    <?php
+                                      foreach ($key->{'produits'} as $produit) {
+                                    ?>
+
+                                        <li class="btn"><?php echo($produit->{'name'}); ?></li>
+                                        <blockquote><?php echo($produit->{'description'});?></blockquote>
+
+                                    <?php
+                                      }
+                                    ?>
+                                    
+                                    </ul>
+                      
+                                  </div>
+                                </li>
+                            
+                            <?php
+                              }
+
+                            ?>
+                              <!-- <li >
                                 <div class="collapsible-header">Bethamethazone</div>
                                 <div class="collapsible-body">
                                   <ul id="betamethasone">
 
                                   </ul>
                                 </div>
-                              </li>
+                              </li> -->
 
                             </ul>
                           </div>

@@ -1,0 +1,30 @@
+{
+    "mollecule": [
+      {
+        "name": "Bethametasone",
+        "produits": [
+          {
+            "nom": "Betamed crème",
+            "description": "Crème"
+          },
+          {
+            "nom": "Betadine",
+            "description": "Solution"
+          }
+        ]
+      },
+      {
+        "name": "Amoxicilline",
+        "produits": [
+          {
+            "nom": "Amox",
+            "description": "Crème"
+          },
+          {
+            "nom": "Amoxicillin",
+            "description": "Injection"
+          }
+        ]
+      }
+    ]
+  }
