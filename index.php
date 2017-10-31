@@ -211,13 +211,12 @@
             <img src= "assets/img/medications-cure-tablets-pharmacy-feuille-1200.jpeg" alt="Discover our products"/>
 
           </div>
-         </div>
- 			<div id="parallax-3" class="parallax-container hide-on-med-and-up">
+      </div>
+ 		<div id="parallax-3" class="parallax-container hide-on-med-and-up">
          	<div class="parallax ">
             <img src= "assets/img/medications-cure-tablets-pharmacy-feuille-600.jpeg" alt="Discover our products"/>
 				</div>
-
-        </div>
+      </div>
       <section id="products" class="section row scrollspy container">
         <div class="row">
           <div class="col s12 ">
@@ -226,7 +225,12 @@
           </div>
         </div>
         <div class="row">
-          <form class="col s12 l8 offset-l2">
+          <div class="col s12 m6">
+			<?php
+	include('private/views/slider.php');
+			?>        
+       	 </div>  
+          <form class="col s12 m6">
             <div class="input-field">
               <input id="search_bar">
             </div>
@@ -236,7 +240,7 @@
           </form>
         </div>
       </section>
-      <div class="slider-css">
+      <!--<div class="slider-css">
         <div class="mask">
 
         </div>
@@ -263,7 +267,8 @@
             <img src="assets/img/produits/clomed-pommade.png" alt="" width="300px">
           </div>
         </div>
-      </div>
+      </div>-->
+      
       <section id="partners" class="section row scrollspy no-margin-bottom ">
 		<div class="container">
         <div class="row">

@@ -14,6 +14,13 @@ $(function(){
   // Initialisation parallax
   $('.parallax').parallax();
 
+  // Initialisation Slider
+  
+    $(document).ready(function(){
+      $('.slider').slider();
+    });
+
+  
   // Initialisation scrollSpy
   $('.scrollspy').scrollSpy({scrollOffset:30});
 

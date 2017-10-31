@@ -226,7 +226,7 @@ footer h3 {
 	padding: 20px!important;
 }
 
-/* Indicateurs slider */
+/* Indicateurs slider 
 .indicators .indicator-item {
   background-color: lightgrey!important;
   height: 16px!important;
@@ -237,7 +237,7 @@ footer h3 {
   background-color: rgba(25, 118, 72, 1)!important;
 }
 
-/* Slider css */
+/* Slider css 
 .slider-css {
   position: relative;
   margin: 0 auto;
@@ -267,7 +267,7 @@ footer h3 {
   margin-left: 10px;
   margin-right: 10px;
 }
-
+*/
 @keyframes slide {
   0% {
     transform: translateX(0);
@@ -357,7 +357,7 @@ footer h3 {
     width: 45%;
   }
 
-  .slider-css {
+ /* .slider-css {
     width: 520px;
   }
 
@@ -367,7 +367,7 @@ footer h3 {
 
   .slider-css .slides .slide img {
     width: 500px;
-  }
+  }*/
 
   @keyframes slide {
     0% {
