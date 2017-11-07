@@ -224,13 +224,21 @@
             <div class="col s6 offset-s2 m2 offset-m1 underline"></div>
           </div>
         </div>
-        <div class="row">
-          <div class="col s12 m6">
-			<?php
-	include('private/views/slider.php');
-			?>        
+        <div class="row center-align">
+          <div class="col s6 m3 ">      		
+					<img class="materialboxed responsive-img" width="200" src="assets/img/produits/gamme2018/Gamme1.png">	
+			</div>
+			<div class="col s6 m3 "> 
+					<img class="materialboxed responsive-img" width="200" src="assets/img/produits/gamme2018/Gamme2.png">
+      	</div>	
+      	<div class="col s6 m3 "> 
+					<img class="materialboxed responsive-img" width="200" src="assets/img/produits/gamme2018/Gamme3.png">
+			</div>
+			<div class="col s6 m3 "> 
+					<img class="materialboxed responsive-img" width="200" src="assets/img/produits/gamme2018/Gamme4.png">      		
+      		</div>
        	 </div>  
-          <form class="col s12 m6">
+          <form class="col s12 ">
             <div class="input-field">
               <input id="search_bar">
             </div>
