@@ -71,19 +71,15 @@
 				</div>
           </div>
         </div>
-    </header>
-    <!-- Header end -->
-
-    <!-- Main start -->
-
+    </header><!-- Header end -->
     <main>
-      <section id="about" class="section row scrollspy container">
+      <section id="about" class="section scrollspy container">
         <div class="row">
           <div class="col s12">
             <h2 class="dark-green">About us</h2>
             <div class="col s6 offset-s2 m2 offset-m1 underline"></div>
           </div>
-        </div>
+        </div><!--TITLE-->
         <div class="row">
           <div class="col s12">
            	<div class="col l7 offset-l1">
@@ -92,31 +88,28 @@
            	<div class="col l10 offset-l1">
             <p>Since 1993, we offer a wide range of high quality pharmaceuticals through professional healthcare outlets, hospitals, pharmacies and much more.<br/>
               As a major player in the distribution of medicine, our mission is to improve access to and provide high quality pharmaceuticals and medical supplies at the lowest possible price to the healthcare sector in developing countries..</p>
-          </div>
-        </div>
-        </section>
-
+          	</div>
+        	 </div>
+        </div><!--CONTENT-->
+        </section><!--SECTION ABOUT-->
         <div id="parallax-2" class="parallax-container hide-on-small-only">
           <div class="parallax">
             <img src="assets/img/about-us-illustration-1200.jpeg" alt="Learn more about us"/>
-
           </div>
          </div>
  			<div id="parallax-3" class="parallax-container hide-on-med-and-up">
          	<div class="parallax ">
             <img src="assets/img/about-us-illustration-600.jpeg" alt="Learn more about us"/>
 				</div>
-
-        </div>
-
-
-      <section id="activities" class="section row scrollspy container">
+        </div><!--PARALLAX-->
+      <section id="activities" class="section scrollspy container">
         <div class="row">
           <div class="col s12">
             <h2 class="dark-green">Activities</h2>
             <div class="col s6 offset-s2 m2 offset-m1 underline"></div>
           </div>
-        </div>
+        </div><!--TITLE-->
+        <div class="row">
           <div id="pictos" class="col s12">
             <div class="col s12 l4">
               <div class="col s12  center-align">
@@ -124,12 +117,9 @@
               </div>
               <div class="container col s8 offset-s2">
                 <p class="center-align">We maintain high quality standards for our whole products range<br/>
-                  <!-- Modal Trigger -->
-                  <button id="amm" class="btn waves-effect waves-light" data-target="modal3">More...</button>
+                  <button id="amm" class="btn waves-effect waves-light" data-target="modal3">More...</button><!-- Modal Trigger -->
                 </p>
-              </div>
-
-              <!-- Modal Structure -->
+              </div>          
               <div id="modal3" class="modal modal-fixed-footer">
                 <div class="modal-content">
                   <h4>Regulation facts</h4>
@@ -170,9 +160,8 @@
                 <div class="modal-footer">
                   <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">clear</i></a>
                 </div>
-              </div>
-
-            </div>
+              </div><!-- Modal Structure -->
+            </div><!--PICTO 1-->
             <div class="col s12 l4">
               <div class="col s12 center-align">
                 <img src="assets/img/pictos/hands.png" alt="Trusted partners"/>
@@ -180,7 +169,7 @@
               <div class="container col s8 offset-s2">
                 <p class="center-align">We believe in long-term business and open-minded relationships with our suppliers.</p>
               </div>
-            </div>
+            </div><!--PICTO 2-->
             <div class="col s12 l4">
               <div class="col s12  center-align">
                 <img src="assets/img/pictos/earth-arrow-blue.png" alt="We deliver"/>
@@ -188,15 +177,14 @@
               <div class="container col s8 offset-s2">
                 <p class="center-align">we deliver a wide range of tailor-made safe and cost-effective products</p>
               </div>
-            </div>
+            </div><!--PICTO 3-->
           </div>
-      </section>
-
-
+          </div><!--PICTOS-->
+      </section><!--SECTION ACTIVITIES-->
       <section id="network" class="row grey lighten-4 no-margin-bottom">
         <div class="col s12 m6 offset-m3 center-align">
           <img class="img-responsive" src="assets/img/pictos/carte-monde-medilab.svg" alt="earth network" width="70%"/>
-        </div>
+        </div><!--CARTE-->
         <div id="picto-location" class="col s12 m8 offset-m2 l6 offset-l3">
               <div class="col s10 offset-s1 m5 offset-m1 ">
                 <i class="material-icons md-36 dark-red center-align">location_on</i>Two main dispatch locations
@@ -204,74 +192,70 @@
               <div class="col s10 offset-s1 m5 offset-m1">
                 <i class="material-icons md-36 dark-green center-align">location_on</i>European based partners
               </div>
-        </div>
-      </section>
+        </div><!--PICTO-LOCATIONS-->
+      </section><!--SECTION NETWORK-->
       <div id="parallax-2" class="parallax-container hide-on-small-only">
           <div class="parallax">
             <img src= "assets/img/medications-cure-tablets-pharmacy-feuille-1200.jpeg" alt="Discover our products"/>
-
           </div>
       </div>
  		<div id="parallax-3" class="parallax-container hide-on-med-and-up">
-         	<div class="parallax ">
+         <div class="parallax ">
             <img src= "assets/img/medications-cure-tablets-pharmacy-feuille-600.jpeg" alt="Discover our products"/>
-				</div>
-      </div>
-      <section id="products" class="section row scrollspy">
+			</div>
+      </div><!--PARALLAX-->
+      <section id="products" class="section scrollspy">
       	<div class="container">
         <div class="row">
           <div class="col s12 ">
             <h2 class="dark-green">Products</h2>
             <div class="col s6 offset-s2 m2 offset-m1 underline"></div>
           </div>
-         </div>
+         </div><!--TITLE-->
         <div class="row col s12">
 	        <div class="col l7 offset-l1">
 	          <h3>2018 product line </h3>
 	        </div>
-        </div>
-        </div>
-        </div>
-        <div class="row">
-        <div class="col l10 offset-l1 center-align">
-          <div class="col s6 m3 ">      		
-					<img class="materialboxed responsive-img" width="200" src="assets/img/produits/gamme2018/Gamme1.png">	
-			</div>
-			<div class="col s6 m3 "> 
-					<img class="materialboxed responsive-img" width="200" src="assets/img/produits/gamme2018/Gamme2.png">
-      	</div>	
-      	<div class="col s6 m3 "> 
-					<img class="materialboxed responsive-img" width="200" src="assets/img/produits/gamme2018/Gamme3.png">
-			</div>
-			<div class="col s6 m3 "> 
-					<img class="materialboxed responsive-img" width="200" src="assets/img/produits/gamme2018/Gamme4.png">      		
-      		</div>
+        </div><!--SUBTITLE-->
+       <div class="row" id="product-line">
+         <div class="col l10 offset-l1">
+	         <div class="col s6 m3 ">      		
+						<img class="materialboxed responsive-img" width="200" src="assets/img/produits/gamme2018/Gamme1.png">	
+				</div><!--PRODUCT IMG 1-->
+				<div class="col s6 m3 "> 
+						<img class="materialboxed responsive-img" width="200" src="assets/img/produits/gamme2018/Gamme2.png">
+	      	</div><!--PRODUCT IMG 2-->	
+	      	<div class="col s6 m3 "> 
+						<img class="materialboxed responsive-img" width="200" src="assets/img/produits/gamme2018/Gamme3.png">
+				</div><!--PRODUCT IMG 3-->
+				<div class="col s6 m3 "> 
+						<img class="materialboxed responsive-img" width="200" src="assets/img/produits/gamme2018/Gamme4.png">      		
+	      	</div><!--PRODUCT IMG 3-->
        	 </div>
-       	 </div>
-       	 <div class="container">  
-          <form class="col s12 l10 offset-l1">
-            <div class="input-field">
-            	<input id="search_bar">
-            </div>
-            <div >
-              <input id="desc">
-            </div>
-          </form>
-          </div>
-        </section>
+       	</div><!--PRODUCT LINE-->
+	    	 <div class="row">  
+	       <form class="col s12 l10 offset-l1">
+	         <div class="input-field">
+	         	<input id="search_bar">
+	         </div>
+	         <div >
+	           <input id="desc">
+	         </div>
+	       </form>
+	       </div><!--PRODUCT FORM-->
+        </div><!--PRODUCTS-->
+      </section><!--SECTION PRODUCTS-->
       <div id="parallax-2" class="parallax-container hide-on-small-only">
           <div class="parallax">
             <img src= "assets/img/clasped-hands-comfort-hands-people-1200.jpeg" alt="Discover our products"/>
-
           </div>
       </div>
  		<div id="parallax-3" class="parallax-container hide-on-med-and-up">
          <div class="parallax ">
             <img src= "assets/img/clasped-hands-comfort-hands-people-600.jpeg" alt="Discover our products"/>
 			</div>
-
-      </div>    
-      <section id="partners" class="section row scrollspy no-margin-bottom ">
+      </div><!--PARALLAX-->   
+      <section id="partners" class="section scrollspy no-margin-bottom ">
 		<div class="container">
         <div class="row">
           <div class="col s12">
@@ -305,23 +289,15 @@
           <div class="container" id="partners-logos" class="col s12 grey lighten-4">
 				<div class="row">
             <div class="logo col s12 m6 center-align">
-              <a href="http://www.ubipharm.com" target="_blank"><img class="responsive-img" src="assets/img/logos/logo-ubipharm.png" alt="logo-ubipharm" ></a>
+              <a href="http://www.ubipharm.com" target="_blank"><img class="responsive-img" src="assets/img/logos/logo-ubipharm.png" alt="logo-ubipharm"  ></a>
             </div>
             <div class="logo col s12 m6 center-align">
-              <a href="http://www.ds-promo.fr" target="_blank"><img class="responsive-img" src="assets/img/logos/Logo-DS.png" alt="logo-DS" ></a>
+              <a href="http://www.ds-promo.fr" target="_blank"><img class="responsive-img" src="assets/img/logos/Logo-DS.png" alt="" ></a>
             </div>
-            <!-- <div class="logo col s6 l3 center-align">
-              <img class="responsive-img" src="assets/img/logos/logo-planet-pharma.png" alt="" width="100px" >
-            </div>
-            <div class="logo col s6 l3 center-align">
-              <img class="responsive-img" src="assets/img/logos/logo-planet-pharma.png" alt="" width="100px">
-            </div> -->
-            </div>
+           </div>
 			</div>
         </div>
-      </section>
-      
-
+      </section><!--SECTION PARTNERS-->
       <section id="contact" class="section container scrollspy">
         <div class="row">
           <div class="col s12">
@@ -378,12 +354,8 @@
             </div>
           </form>
         </div>
-      </section>
-    </main>
-    <!-- Main end -->
-
-
-    <!-- Footer start -->
+      </section><!--SECTION CONTACT-->
+    </main><!-- Main end -->
     <footer class="page-footer grey darken-2">
     	<div class="container grey-text">
       	<div class="row">
@@ -395,8 +367,7 @@
 			            Fax : +44 20 7554 2201<br/>
 			            Mail : <a href="mailto:uae@medilab.one">uaeb@medilab.one</a></p>
 			            <p class="">Certificate of incorporation <a href="assets/doc/COI-MEDILAB INTERNATIONAL LTD.pdf" target="_blank"><i class="tiny material-icons">&#xE89E;</i></a></p>
-     			</div>
-
+     			</div><!--COL 1-->
       	<div class="col l4">
         <h2 class="">Europe branches</h2>
 
@@ -411,7 +382,7 @@
             <p class="emphase">Av de Roodebeek 131, 1030 Schaerbeek, Bruxelles Belgium<br/>
             Phone : <a href="tel:+32 49 21 66 161">+32 49 21 66 161</a><br/>
             Mail : <a href="mailto:medilab@medilab.one">medilab@medilab.one</a></p>
-          </div>
+          </div><!--COL 2-->
       <div class="col l4">
         <h2 class="">Africa branch</h2>
             <h3 class="">Medilab UK Intl filial</h3>
@@ -420,15 +391,13 @@
             Mail : <a href="mailto:senegal@medilab.one">senegal@medilab.one</a></p>
             <h3 class="">Training School</h3>
             <i class="emphase">Coming soon</i>
-          </div>
- </div>
- </div>
+          </div><!--COL 3-->
+ 			</div>		
+ 		</div><!--PAGE FOOTER-->
       <div class="footer-copyright center-align">
          <div class="container grey-text">
          &copy&nbspCopyright 2017. All rights reserved
          <span>|</span>
-
-
          <a class="modal-trigger grey-text" href="#modal1" >Legal informations</a>
             <div id="modal1" class="modal modal-fixed-footer">
                 <div class="modal-content left-align">
@@ -443,7 +412,7 @@ Phone: +45.46907100<br/>Email:hostmaster@one.com</p>
                 <div class="modal-footer ">
                   <a href="#!" class="modal-action modal-close btn-floating "><i class="material-icons ">highlight_off</i></a>
                 </div>
-              </div><!--MODAL-->
+              </div><!--MODAL 1-->
          <span>|</span>
 
          <a class="modal-trigger grey-text" href="#modal2" >Terms of use</a>
@@ -483,13 +452,12 @@ Phone: +45.46907100<br/>Email:hostmaster@one.com</p>
 					</div>
        <div class="modal-footer ">
          <a href="#!" class="modal-action modal-close btn-floating "><i class="material-icons ">highlight_off</i></a>
-       </div>
-     </div><!--MODAL-->
+       </div><!--Modal Footer-->
+     </div><!--MODAL 2-->
 
       </div>
-      </div>
-    </footer>
-    <!--FOOTER END-->
+      </div><!--FOOTER COPYWRITE-->
+    </footer><!--FOOTER END-->
     <script
 			  src="https://code.jquery.com/jquery-3.2.1.min.js"
 			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
