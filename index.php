@@ -151,7 +151,7 @@
                             ?>
 
                                 <li>
-                                  <div class="collapsible-header"><?php echo($key->{'name'}); ?></div>
+                                  <div class="collapsible-header"><?php echo(ucfirst($key->{'name'})); ?></div>
                                   <div class="collapsible-body">
                                     <ul class="<?php echo($key->{'name'}); ?>">
                                     <?php
