@@ -27,7 +27,7 @@ $(function(){
 
   // EasyAutocomplete setup
   var options = {
-	url: "products.old",
+	url: "../products.old",
 
 	getValue: "name",
 
