@@ -197,7 +197,15 @@ footer h3 {
 #search_bar {
   box-sizing: border-box!important;
 }
-
+.easy-autocomplete.eac-dark input{
+  background-image: url("../assets/img/pictos/search.png");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+}
+#products form {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
 #pictos img {
   height: 70px;
 }

@@ -217,14 +217,23 @@
             <img src= "assets/img/medications-cure-tablets-pharmacy-feuille-600.jpeg" alt="Discover our products"/>
 				</div>
       </div>
-      <section id="products" class="section row scrollspy container">
+      <section id="products" class="section row scrollspy">
+      	<div class="container">
         <div class="row">
           <div class="col s12 ">
             <h2 class="dark-green">Products</h2>
             <div class="col s6 offset-s2 m2 offset-m1 underline"></div>
           </div>
+         </div>
+        <div class="row col s12">
+	        <div class="col l7 offset-l1">
+	          <h3>2018 product line </h3>
+	        </div>
         </div>
-        <div class="row center-align">
+        </div>
+        </div>
+        <div class="row">
+        <div class="col l10 offset-l1 center-align">
           <div class="col s6 m3 ">      		
 					<img class="materialboxed responsive-img" width="200" src="assets/img/produits/gamme2018/Gamme1.png">	
 			</div>
@@ -237,46 +246,31 @@
 			<div class="col s6 m3 "> 
 					<img class="materialboxed responsive-img" width="200" src="assets/img/produits/gamme2018/Gamme4.png">      		
       		</div>
-       	 </div>  
-          <form class="col s12 ">
+       	 </div>
+       	 </div>
+       	 <div class="container">  
+          <form class="col s12 l10 offset-l1">
             <div class="input-field">
-              <input id="search_bar">
+            	<input id="search_bar">
             </div>
             <div >
               <input id="desc">
             </div>
           </form>
-        </div>
-      </section>
-      <!--<div class="slider-css">
-        <div class="mask">
+          </div>
+        </section>
+      <div id="parallax-2" class="parallax-container hide-on-small-only">
+          <div class="parallax">
+            <img src= "assets/img/clasped-hands-comfort-hands-people-1200.jpeg" alt="Discover our products"/>
 
-        </div>
-        <div class="slides">
-          <div class="slide">
-            <img src="assets/img/produits/betanol.png" alt="" width="300px">
           </div>
-          <div class="slide">
-            <img src="assets/img/produits/betamed-creme.png" alt="" width="300px">
-          </div>
-          <div class="slide">
-            <img src="assets/img/produits/parafene.png" alt="" width="300px">
-          </div>
-          <div class="slide">
-            <img src="assets/img/produits/clomed-creme.png" alt="" width="300px">
-          </div>
-          <div class="slide">
-            <img src="assets/img/produits/betamed-pommade.png" alt="" width="300px">
-          </div>
-          <div class="slide">
-            <img src="assets/img/produits/gentamed.png" alt="" width="300px">
-          </div>
-          <div class="slide">
-            <img src="assets/img/produits/clomed-pommade.png" alt="" width="300px">
-          </div>
-        </div>
-      </div>-->
-      
+      </div>
+ 		<div id="parallax-3" class="parallax-container hide-on-med-and-up">
+         <div class="parallax ">
+            <img src= "assets/img/clasped-hands-comfort-hands-people-600.jpeg" alt="Discover our products"/>
+			</div>
+
+      </div>    
       <section id="partners" class="section row scrollspy no-margin-bottom ">
 		<div class="container">
         <div class="row">
@@ -311,10 +305,10 @@
           <div class="container" id="partners-logos" class="col s12 grey lighten-4">
 				<div class="row">
             <div class="logo col s12 m6 center-align">
-              <a href="http://www.ubipharm.com" target="_blank"><img class="responsive-img" src="assets/img/logos/logo-ubipharm.png" alt="logo-ubipharm"  ></a>
+              <a href="http://www.ubipharm.com" target="_blank"><img class="responsive-img" src="assets/img/logos/logo-ubipharm.png" alt="logo-ubipharm" ></a>
             </div>
             <div class="logo col s12 m6 center-align">
-              <a href="http://www.ds-promo.fr" target="_blank"><img class="responsive-img" src="assets/img/logos/Logo-DS.png" alt="" ></a>
+              <a href="http://www.ds-promo.fr" target="_blank"><img class="responsive-img" src="assets/img/logos/Logo-DS.png" alt="logo-DS" ></a>
             </div>
             <!-- <div class="logo col s6 l3 center-align">
               <img class="responsive-img" src="assets/img/logos/logo-planet-pharma.png" alt="" width="100px" >
@@ -326,18 +320,7 @@
 			</div>
         </div>
       </section>
-      <div id="parallax-2" class="parallax-container hide-on-small-only">
-          <div class="parallax">
-            <img src= "assets/img/clasped-hands-comfort-hands-people-1200.jpeg" alt="Discover our products"/>
-
-          </div>
-      </div>
- 		<div id="parallax-3" class="parallax-container hide-on-med-and-up">
-         <div class="parallax ">
-            <img src= "assets/img/clasped-hands-comfort-hands-people-600.jpeg" alt="Discover our products"/>
-			</div>
-
-      </div>
+      
 
       <section id="contact" class="section container scrollspy">
         <div class="row">
