@@ -220,16 +220,16 @@
        <div class="row" id="product-line">
          <div class="col l10 offset-l1">
 	         <div class="col s6 m3 ">      		
-						<img class="materialboxed responsive-img" width="200" src="assets/img/produits/gamme2018/Gamme1.png">	
+						<img class="materialboxed responsive-img" width="200" src="assets/img/produits/gamme2018/Gamme1.jpg">	
 				</div><!--PRODUCT IMG 1-->
 				<div class="col s6 m3 "> 
-						<img class="materialboxed responsive-img" width="200" src="assets/img/produits/gamme2018/Gamme2.png">
+						<img class="materialboxed responsive-img" width="200" src="assets/img/produits/gamme2018/Gamme2.jpg">
 	      	</div><!--PRODUCT IMG 2-->	
 	      	<div class="col s6 m3 "> 
-						<img class="materialboxed responsive-img" width="200" src="assets/img/produits/gamme2018/Gamme3.png">
+						<img class="materialboxed responsive-img" width="200" src="assets/img/produits/gamme2018/Gamme3.jpg">
 				</div><!--PRODUCT IMG 3-->
 				<div class="col s6 m3 "> 
-						<img class="materialboxed responsive-img" width="200" src="assets/img/produits/gamme2018/Gamme4.png">      		
+						<img class="materialboxed responsive-img" width="200" src="assets/img/produits/gamme2018/Gamme4.jpg">      		
 	      	</div><!--PRODUCT IMG 3-->
        	 </div>
        	</div><!--PRODUCT LINE-->
