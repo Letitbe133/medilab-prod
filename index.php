@@ -470,5 +470,3 @@ Phone: +45.46907100<br/>Email:hostmaster@one.com</p>
     <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>
-assets/img/we-care-for-you-medilab-1200.jpeg" alt="We care for you"/>
-              </div>
