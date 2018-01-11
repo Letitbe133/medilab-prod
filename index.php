@@ -42,12 +42,13 @@
           </div>
         </nav>
       </div>
+      <?php include("private/views/head-slider.php") ?>
         <!-- Fixed collapsible menu module end -->
 
-        <div class="row">
+     <!--           <div class="row">
 
-          <!-- Parallax module start -->
-            <div class="parallax-container hide-on-small-only">
+    <!-- Parallax module start 
+    <div class="parallax-container hide-on-small-only">
               <div class="parallax">
 					 <img src="assets/img/we-care-for-you-medilab-1200.jpeg" alt="We care for you"/>
               </div>
@@ -60,16 +61,16 @@
             </div>
           <!-- Parallax module end -->
 
-          <div class="tagline">
+      <div class="tagline">
           	<div class="row">
             <div class="col s6 offset-s1">
-                <h1>We care<br/>for you</h1>
+                <ul id="staggered1" ><li style="opacity: 0;"> <h1>Bridging talents</h1></li></ul>
             </div>
-            <div class="col s11 offset-s1">
+           <!-- <div class="col s11 offset-s1">
               <h2>Because your health matters</h2>
-            </div>
+            </div>-->
 				</div>
-          </div>
+          </div> 
         </div>
     </header><!-- Header end -->
     <main>
@@ -94,13 +95,15 @@
         </section><!--SECTION ABOUT-->
         <div id="parallax-2" class="parallax-container hide-on-small-only">
           <div class="parallax">
-            <img src="assets/img/about-us-illustration-1200.jpeg" alt="Learn more about us"/>
+            <img src="assets/img/about-us-illustration-1200+.jpeg" alt="Learn more about us"/>
           </div>
+          				<div class="overlay"></div>
          </div>
  			<div id="parallax-3" class="parallax-container hide-on-med-and-up">
          	<div class="parallax ">
             <img src="assets/img/about-us-illustration-600.jpeg" alt="Learn more about us"/>
 				</div>
+
         </div><!--PARALLAX-->
       <section id="activities" class="section scrollspy container">
         <div class="row">
@@ -467,3 +470,5 @@ Phone: +45.46907100<br/>Email:hostmaster@one.com</p>
     <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>
+assets/img/we-care-for-you-medilab-1200.jpeg" alt="We care for you"/>
+              </div>

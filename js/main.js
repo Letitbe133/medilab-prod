@@ -14,17 +14,27 @@ $(function(){
   // Initialisation parallax
   $('.parallax').parallax();
 
-  // Initialisation Slider
+  // Initialisation Carousel
       $(document).ready(function(){
       $('.carousel').carousel();
     });
     $('.carousel.carousel-slider').carousel({fullWidth: true});
-
+    
+  // Initialisation slider
+    $(document).ready(function(){
+      $('.slider').slider();
+    });
   
   // Initialisation scrollSpy
   $('.scrollspy').scrollSpy({scrollOffset:30});
+  
+	//scrollfire
+ var options = [
+     	 {selector: '#staggered1', offset: 0, callback: function(el) { Materialize.showStaggeredList($(el)); }},
 
 
+  ];
+  Materialize.scrollFire(options);
   // EasyAutocomplete setup
   var options = {
 	url: "products.old",
