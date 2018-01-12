@@ -1,9 +1,7 @@
 $(function(){
 
   // Initialisation menu hamburger
-  $(".button-collapse").sideNav({
-    closeOnClick: true
-  });
+  $(".button-collapse").sideNav({ closeOnClick: true });
 
   // Initialisation modal
   $('.modal').modal();
@@ -19,18 +17,24 @@ $(function(){
      $('.carousel.carousel-slider').carousel({fullWidth: true});
     
   // Initialisation slider
-      $('.slider').slider({indicators:false, height:500});
+      var headerHeight = $('header').height();
+      console.log(headerHeight);
+      $('.slider').slider({indicators:false, height:headerHeight});
   
   // Initialisation scrollSpy
   $('.scrollspy').scrollSpy({scrollOffset:30});
   
 	//scrollfire
  var options = [
-     	 {selector: '#staggered1', offset: 0, callback: function(el) { Materialize.showStaggeredList($(el)); }},
+        {
+          selector: '#staggered1',
+          offset: 0,
+          callback: function(el) { Materialize.showStaggeredList($(el)); }
+        },
+      ];
 
-
-  ];
   Materialize.scrollFire(options);
+
   // EasyAutocomplete setup
   var options = {
 	url: "products.old",
@@ -72,42 +76,5 @@ $(function(){
 };
 
   $("#search_bar").easyAutocomplete(options);
-
-  // mollecules display
- // var jsonData = $.getJSON('products.json',function(data){
-    //console.log(data);
-  //  $(data.mollecule[0]).each(function(){
-  //    var item = $(this)[0];
-  //    console.log(item);
-   //   $.each(item, function(k, v) {
-        //console.log(k);
-   //     $('#productsList').append(`<div class="collapsible-header">${k}</div>
-   //     <div class=collapsible-body>
-   //     test
-   //     </div>
-      //  `)
-        // $('#productsList').append(`
-        //   <div class='collapsible-header'> ${k} </div>
-        //   <div class='collapsible-body'>
-        //     <ul>
-        //       <li>${v[0].name}</li>
-        //     </ul>
-        //   </div>
-        //   `);
-    //    $.each(v, function(){
-     //     console.log(v[0].description);
-   //     })
-        //console.log(v[0].name);
- //     })
- // })
- //   var betamethasone = $(data)[0]["mollecule"][0]['betamethasone'];
-    //console.log(betamethasone.length);
- //   $(betamethasone).each(function(){
- //     var test = $(this)[0]['name'];
-      //console.log(test);
- //     $('#betamethasone').append("<li>" + test + "<span class='right'>" + $(this)[0]['conditionnement'] + "</span></li>");
- //   })
- // });
-
 
 })

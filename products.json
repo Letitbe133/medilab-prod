@@ -1,290 +1,514 @@
-[{
-  "betamethasone": [
+{
+  "mollecule": [
     {
-      "name": "BETAMED Crème",
-      "type": "Crème",
-      "description": "Betamethasone crème",
-      "conditionnement": "30g"
+      "name": "acide salicylique",
+      "produits": [
+        {
+          "name": "BETA-SALIC Pommade",
+          "type": "Pommade",
+          "description": "Betamethasone + Acide Salicylique",
+          "conditionnement": "30g"
+        }
+      ]
     },
     {
-      "name": "BETA-SALIC Pommade",
-      "type": "Pommade",
-      "description": "Betamethasone + Acide Salicylique",
-      "conditionnement": "30g"
+      "name": "albendazole",
+      "produits": [
+        {
+          "name": "ALBIZOL Sirop",
+          "type": "Sirop",
+          "description": "Albendazole",
+          "conditionnement": "200mg / 5ml"
+        },
+        {
+          "name": "ALBIZOL Comprimé",
+          "type": "Comprime",
+          "description": "Albendazole",
+          "conditionnement": "400mg"
+        }
+      ]
     },
     {
-      "name": "BETAMED Inj",
-      "type": "Injection",
-      "description": "Bethamethazone 4mg/1ml inj",
-      "conditionnement": "B/3"
+      "name": "amlodipine",
+      "produits": [
+        {
+          "name": "Amlodimed 10",
+          "type": "Comprimé",
+          "description": "Amlodipine",
+          "conditionnement": "10mg"
+        },
+        {
+          "name": "Amlodimed 5",
+          "type": "Comprimé",
+          "description": "Amlodipine",
+          "conditionnement": "5mg"
+        }
+      ]
     },
     {
-      "name": "BETAMED Oral",
-      "type": "Suspension",
-      "description": "Betamethasone",
-      "conditionnement": "30ml"
+      "name": "amoxicilline",
+      "produits": [
+        {
+          "name": "MEDIMOX Comprimé",
+          "type": "Capsule",
+          "description": "Amoxicilline",
+          "conditionnement": "500mg"
+        },
+        {
+          "name": "MEDIMOX Sirop",
+          "type": "Sirop",
+          "description": "Amoxicilline",
+          "conditionnement": "250mg / 5ml"
+        }
+      ]
     },
     {
-      "name": "BETAMED Pommade",
-      "type": "Pommade",
-      "description": "Betamethasone",
-      "conditionnement": "30g"
+      "name": "ampicilin",
+      "produits": [
+        {
+          "name": "MEDICILIN",
+          "type": "Injection",
+          "description": "Ampicilin",
+          "conditionnement": "1g"
+        }
+      ]
     },
     {
-      "name": "BETANOL Crème",
-      "type": "Crème",
-      "description": "Betamethasone + Clioquinole",
-      "conditionnement": "30g"
+      "name": "artemether",
+      "produits": [
+        {
+          "name": "PALUMART Comprimé",
+          "type": "Comprimé",
+          "description": "Artemether + Lumefantrine",
+          "conditionnement": "80mg / 480mg"
+        },
+        {
+          "name": "PALUMART Sirop",
+          "type": "Sirop",
+          "description": "Artemether + Lumefantrine",
+          "conditionnement": "15mg / 90mg"
+        }
+      ]
+    },
+    {
+      "name": "atenolol",
+      "produits": [
+        {
+          "name": "Amlodimed 100",
+          "type": "Comprimé",
+          "description": "Atenolol",
+          "conditionnement": "100mg"
+        },
+        {
+          "name": "Amlodimed 50",
+          "type": "Comprimé",
+          "description": "Atenolol",
+          "conditionnement": "50mg"
+        }
+      ]
+    },
+    {
+      "name": "azithromycin",
+      "produits": [
+        {
+          "name": "Azitromed",
+          "type": "Comprimé",
+          "description": "Azithromycin",
+          "conditionnement": "500mg"
+        }
+      ]
+    },
+    {
+      "name": "betamethasone",
+      "produits":[
+        {
+          "name": "BETAMED Crème",
+          "type": "Crème",
+          "description": "Betamethasone crème",
+          "conditionnement": "30g"  
+        },
+        {
+          "name": "BETA-SALIC Pommade",
+          "type": "Pommade",
+          "description": "Betamethasone + Acide Salicylique",
+          "conditionnement": "30g"
+        },
+        {
+          "name": "BETAMED Inj",
+          "type": "Injection",
+          "description": "Bethamethazone 4mg/1ml inj",
+          "conditionnement": "B/3"
+        },
+        {
+          "name": "BETAMED Oral",
+          "type": "Suspension",
+          "description": "Betamethasone",
+          "conditionnement": "30ml"
+        },
+        {
+          "name": "BETAMED Pommade",
+          "type": "Pommade",
+          "description": "Betamethasone",
+          "conditionnement": "30g"
+        },
+        {
+          "name": "BETANOL Crème",
+          "type": "Crème",
+          "description": "Betamethasone + Clioquinole",
+          "conditionnement": "30g"
+        }
+      ]
+    },
+    {
+      "name": "carbocisteine",
+      "produits": [
+        {
+          "name": "Carbocis 2",
+          "type": "Sirop",
+          "description": "Carbocisteine",
+          "conditionnement": "100ml"
+        },
+        {
+          "name": "Carbocis 5",
+          "type": "Sirop",
+          "description": "Carbocisteine",
+          "conditionnement": "180ml"
+        }
+      ]
+    },
+    {
+      "name": "ceftriazone",
+      "produits": [
+        {
+          "name": "CEFTRAL",
+          "type": "Injection",
+          "description": "Ceftriazone",
+          "conditionnement": "1g"
+        }
+      ]
+    },
+    {
+      "name": "ciprofloxacin",
+      "produits": [
+        {
+          "name": "Ciproflox 500",
+          "type": "Comprimé",
+          "description": "Ciprofloxacine",
+          "conditionnement": "500mg"
+        },
+        {
+          "name": "Ciproflox 750",
+          "type": "Comprimé",
+          "description": "Ciprofloxacine",
+          "conditionnement": "750mg"
+        }
+      ]
+    },
+    {
+      "name": "clavucanate",
+      "produits": [
+        {
+          "name": "CLAVUXIN Dry syrup",
+          "type": "Dry syrup",
+          "description": "Amoxicilline + clavulanate",
+          "conditionnement": "(100mg+12.5mg)/5ml, 60 ml"
+        },
+        {
+          "name": "CLAVUXIN Dry syrup",
+          "type": "Dry syrup",
+          "description": "Amoxicilline + clavulanate",
+          "conditionnement": "(100mg+12.5mg)/5ml, 30 ml"
+        },
+        {
+          "name": "CLAVUXIN Sirop",
+          "type": "Sirop",
+          "description": "Amoxicilline + clavulanate",
+          "conditionnement": "100ml / 12.5mg"
+        },
+        {
+          "name": "CLAVUXIN Sirop",
+          "type": "Sirop",
+          "description": "Amoxicilline + clavulanate",
+          "conditionnement": "60ml"
+        },
+        {
+          "name": "CLAVUXIN Comprimé",
+          "type": "Comprimé",
+          "description": "Amoxicilline + clavulanate",
+          "conditionnement": "500mg / 62.5mg"
+        },
+        {
+          "name": "CLAVUXIN Injectable",
+          "type": "Injection",
+          "description": "Amoxicilline + clavulanate",
+          "conditionnement": "1000mg / 200mg"
+        },
+        {
+          "name": "CLAVUXIN Sachet",
+          "type": "Sachet",
+          "description": "Amoxicilline + clavulanate",
+          "conditionnement": "1000mg / 125mg"
+        }
+
+      ]
+    },
+    {
+      "name": "clobetasol",
+      "produits": [
+        {
+          "name": "CLOMED Pommade",
+          "type": "Pommade",
+          "description": "Clobetasol (Propionate)",
+          "conditionnement": "30g"
+        },
+        {
+          "name": "CLOMED Crème",
+          "type": "Crème",
+          "description": "Clobetasol (Propionate)",
+          "conditionnement": "30g"
+        }
+      ]
+    },
+    {
+      "name": "clotrimazole",
+      "produits": [
+        {
+          "name": "CLOTRIDERM Crème",
+          "type": "Crème",
+          "description": "Clotrimazole 1%",
+          "conditionnement": "30g"
+        },
+        {
+          "name": "CLOTRIDERM Ovule",
+          "type": "Comprimé gynécologique",
+          "description": "Clotrimazole 100mg",
+          "conditionnement": "B/6"
+        }
+      ]
+    },
+    {
+      "name": "cloxacilline",
+      "produits": [
+        {
+          "name": "Oxal 500",
+          "type": "Capsule",
+          "description": "Cloxacilline",
+          "conditionnement": "500mg"
+        }
+      ]
+    },
+    {
+      "name": "cotrimoxazole",
+      "produits": [
+        {
+          "name": "SOTRIM Fort",
+          "type": "Comprimé",
+          "description": "Cotrimoxazole",
+          "conditionnement": "960mg"
+        }
+      ]
+    },
+    {
+      "name": "doxycycline",
+      "produits": [
+        {
+          "name": "Doxymed 100",
+          "type": "Capsule",
+          "description": "Doxycycline",
+          "conditionnement": "100mg"
+        },
+        {
+          "name": "Doxymed 200",
+          "type": "Capsule",
+          "description": "Doxycycline",
+          "conditionnement": "200mg"
+        }
+      ]
+    },
+    {
+      "name": "furosemide",
+      "produits": [
+        {
+          "name": "Furocimed 40",
+          "type": "Comprimé",
+          "description": "Furosemide",
+          "conditionnement": "40mg"
+        }
+      ]
+    },
+    {
+      "name": "gentamicin",
+      "produits": [
+        {
+          "name": "GENTAMED Collyre",
+          "type": "Collyre",
+          "description": "Gentamicin 3%",
+          "conditionnement": "5ml"
+        },
+        {
+          "name": "GENTAMED Pommade",
+          "type": "Pommade",
+          "description": "Gentamicin",
+          "conditionnement": "5g"
+        }
+      ]
+    },
+    {
+      "name": "griseofulvin",
+      "produits": [
+        {
+          "name": "FULVIN",
+          "type": "Comprimé",
+          "description": "Griseofulvin",
+          "conditionnement": "500mg"
+        }
+      ]
+    },
+    {
+      "name": "ibuprofene",
+      "produits": [
+        {
+          "name": "PARAFEN",
+          "type": "Comprimé",
+          "description": "Paracétamol + Ibuprofène",
+          "conditionnement": "500mg / 400mg"
+        }
+      ]
+    },
+    {
+      "name": "licomycine",
+      "produits": [
+        {
+          "name": "Lincomed 500",
+          "type": "Capsule",
+          "description": "Licomycine",
+          "conditionnement": "500mg"
+        }
+      ]
+    },
+    {
+      "name": "lumefantrine",
+      "produits": [
+        {
+          "name": "PALUMART Comprimé",
+          "type": "Comprimé",
+          "description": "Artemether + Lumefantrine",
+          "conditionnement": "80mg / 480mg"
+        },
+        {
+          "name": "PALUMART Sirop",
+          "type": "Sirop",
+          "description": "Artemether + Lumefantrine",
+          "conditionnement": "15mg / 90mg"
+        }
+      ]
+    },
+    {
+      "name": "metronidazole",
+      "produits": [
+        {
+          "name": "ZELIX Comprime",
+          "type": "Comprimé",
+          "description": "Metronidazole",
+          "conditionnement": "500mg"
+        },
+        {
+          "name": "ZOLIX Sirop",
+          "type": "Sirop",
+          "description": "Metronidazole",
+          "conditionnement": "250mg / 5ml"
+        }
+      ]
+    },
+    {
+      "name": "multivitamin",
+      "produits": [
+        {
+          "name": "MEGAVIT Sirop",
+          "type": "Sirop",
+          "description": "Multivitamin",
+          "conditionnement": "120ml"
+        }
+      ]
+    },
+    {
+      "name": "ofloxacine",
+      "produits": [
+        {
+          "name": "Floxamed 200",
+          "type": "Comprimé",
+          "description": "Ofloxacine",
+          "conditionnement": "200mg"
+        },
+        {
+          "name": "Floxamed 400",
+          "type": "Comprimé",
+          "description": "Ofloxacine",
+          "conditionnement": "400mg"
+        },
+        {
+          "name": "Floxamed Injectable",
+          "type": "Injection",
+          "description": "Ofloxacine",
+          "conditionnement": "200mg / 100ml"
+        }
+      ]
+    },
+    {
+      "name": "omoprazole",
+      "produits": [
+        {
+          "name": "OMORAL",
+          "type": "Capsule",
+          "description": "Omoprazole",
+          "conditionnement": "20mg"
+        }
+      ]
+    },
+    {
+      "name": "paracetamol",
+      "produits": [
+        {
+          "name": "PARAFEN",
+          "type": "Comprimé",
+          "description": "Paracétamol + Ibuprofène",
+          "conditionnement": "500mg / 400mg"
+        }
+      ]
+    },
+    {
+      "name": "pyrimethamine",
+      "produits": [
+        {
+          "name": "PALUDOX",
+          "type": "Comprime",
+          "description": "Sulfadoxine + Pyrimethamine",
+          "conditionnement": "500mg / 25mg"
+        }
+      ]
+    },
+    {
+      "name": "sulfadoxine",
+      "produits": [
+        {
+          "name": "PALUDOX",
+          "type": "Comprime",
+          "description": "Sulfadoxine + Pyrimethamine",
+          "conditionnement": "500mg / 25mg"
+        }
+      ]
+    },
+    {
+      "name": "sulfate de fer / acide folique",
+      "produits": [
+        {
+          "name": "Fermed sirop",
+          "type": "Sirop",
+          "description": "Sulfate de fer / Acide folique",
+          "conditionnement": "(40mg+0.4mg)/5ml, 200ml"
+        }
+      ]
     }
-  ],
-"acide salicylique": [
-  {
-    "name": "BETA-SALIC Pommade",
-    "type": "Pommade",
-    "description": "Betamethasone + Acide Salicylique",
-    "conditionnement": "30g"
-  }
-],
-"clotrimazole": [
-  {
-    "name": "CLOTRIDERM Crème",
-    "type": "Crème",
-    "description": "Clotrimazole 1%",
-    "conditionnement": "30g"
-  },
-  {
-    "name": "CLOTRIDERM Ovule",
-    "type": "Comprimé gynécologique",
-    "description": "Clotrimazole 100mg",
-    "conditionnement": "B/6"
-  }
-],
-"gentamicin": [
-  {
-    "name": "GENTAMED Collyre",
-    "type": "Collyre",
-    "description": "Gentamicin 3%",
-    "conditionnement": "5ml"
-  },
-  {
-    "name": "GENTAMED Pommade",
-    "type": "Pommade",
-    "description": "Gentamicin",
-    "conditionnement": "5g"
-  }
-],
-"ceftriazone": [
-  {
-    "name": "CEFTRAL",
-    "type": "Injection",
-    "description": "Ceftriazone",
-    "conditionnement": "1g"
-  }
-],
-"ampicilin": [
-  {
-    "name": "MEDICILIN",
-    "type": "Injection",
-    "description": "Ampicilin",
-    "conditionnement": "1g"
-  }
-],
-"albendazole": [
-  {
-    "name": "ALBIZOL Sirop",
-    "type": "Sirop",
-    "description": "Albendazole",
-    "conditionnement": "200mg / 5ml"
-  },
-  {
-    "name": "ALBIZOL Comprimé",
-    "type": "Comprime",
-    "description": "Albendazole",
-    "conditionnement": "400mg"
-  }
-],
-"omoprazole": [
-  {
-    "name": "OMORAL",
-    "type": "Capsule",
-    "description": "Omoprazole",
-    "conditionnement": "20mg"
-  }
-],
-"sulfadoxine": [
-  {
-    "name": "PALUDOX",
-    "type": "Comprime",
-    "description": "Sulfadoxine + Pyrimethamine",
-    "conditionnement": "500mg / 25mg"
-  }
-],
-"pyrimethamine": [
-  {
-    "name": "PALUDOX",
-    "type": "Comprime",
-    "description": "Sulfadoxine + Pyrimethamine",
-    "conditionnement": "500mg / 25mg"
-  }
-],
-"cotrimoxazole": [
-  {
-    "name": "SOTRIM Fort",
-    "type": "Comprimé",
-    "description": "Cotrimoxazole",
-    "conditionnement": "960mg"
-  }
-],
-"amoxicilline": [
-  {
-    "name": "MEDIMOX Comprimé",
-    "type": "Gélule",
-    "description": "Amoxicilline",
-    "conditionnement": "500mg"
-  },
-  {
-    "name": "MEDIMOX Sirop",
-    "type": "Sirop",
-    "description": "Amoxicilline",
-    "conditionnement": "250mg / 5ml"
-  },
-  {
-    "name": "CLAVUXIN Sirop",
-    "type": "Sirop",
-    "description": "Amoxicilline + clavulanate",
-    "conditionnement": "100mg / 12.5mg"
-  },
-  {
-    "name": "CLAVUXIN Sirop",
-    "type": "Sirop",
-    "description": "Amoxicilline + clavulanate",
-    "conditionnement": "60ml"
-  },
-  {
-    "name": "CLAVUXIN Comprimé",
-    "type": "Comprimé",
-    "description": "Amoxicilline + clavulanate",
-    "conditionnement": "500mg / 62.5mg"
-  },
-  {
-    "name": "CLAVUXIN Injectable",
-    "type": "Injection",
-    "description": "Amoxicilline + clavulanate",
-    "conditionnement": "1000mg / 200mg"
-  }
-],
-"clavucanate": [
-  {
-    "name": "CLAVUXIN Sirop",
-    "type": "Sirop",
-    "description": "Amoxicilline + clavulanate",
-    "conditionnement": "100mg / 12.5mg"
-  },
-  {
-    "name": "CLAVUXIN Sirop",
-    "type": "Sirop",
-    "description": "Amoxicilline + clavulanate",
-    "conditionnement": "60ml"
-  },
-  {
-    "name": "CLAVUXIN Comprimé",
-    "type": "Comprimé",
-    "description": "Amoxicilline + clavulanate",
-    "conditionnement": "500mg / 62.5mg"
-  },
-  {
-    "name": "CLAVUXIN Injectable",
-    "type": "Injection",
-    "description": "Amoxicilline + clavulanate",
-    "conditionnement": "1000mg / 200mg"
-  }
-],
-"metronidazole": [
-  {
-    "name": "ZELIX Comprime",
-    "type": "Comprimé",
-    "description": "Metronidazole",
-    "conditionnement": "500mg"
-  },
-  {
-    "name": "ZOLIX Sirop",
-    "type": "Sirop",
-    "description": "Metronidazole",
-    "conditionnement": "250mg / 5ml"
-  }
-],
-"paracetamol": [
-  {
-    "name": "PARAFEN",
-    "type": "Comprimé",
-    "description": "Paracétamol + Ibuprofène",
-    "conditionnement": "500mg / 400mg"
-  }
-],
-"ibuprofene": [
-  {
-    "name": "PARAFEN",
-    "type": "Comprimé",
-    "description": "Paracétamol + Ibuprofène",
-    "conditionnement": "500mg / 400mg"
-  }
-],
-"griseofulvin": [
-  {
-    "name": "FULVIN",
-    "type": "Comprimé",
-    "description": "Griseofulvin",
-    "conditionnement": "500mg"
-  }
-],
-"artemether": [
-  {
-    "name": "PALUMART Comprimé",
-    "type": "Comprimé",
-    "description": "Artemether + Lumefantrine",
-    "conditionnement": "80mg / 480mg"
-  },
-  {
-    "name": "PALUMART Sirop",
-    "type": "Sirop",
-    "description": "Artemether + Lumefantrine",
-    "conditionnement": "15mg / 90mg"
-  }
-],
-"lumefantrine": [
-  {
-    "name": "PALUMART Comprimé",
-    "type": "Comprimé",
-    "description": "Artemether + Lumefantrine",
-    "conditionnement": "80mg / 480mg"
-  },
-  {
-    "name": "PALUMART Sirop",
-    "type": "Sirop",
-    "description": "Artemether + Lumefantrine",
-    "conditionnement": "15mg / 90mg"
-  }
-],
-"clobetasol": [
-  {
-    "name": "CLOMED Pommade",
-    "type": "Pommade",
-    "description": "Clobetasol (Propionate)",
-    "conditionnement": "30g"
-  },
-  {
-    "name": "CLOMED Crème",
-    "type": "Crème",
-    "description": "Clobetasol (Propionate)",
-    "conditionnement": "30g"
-  }
-],
-  "multivitamin": [
-    {
-      "name": "MEGAVIT Sirop",
-      "type": "Sirop",
-      "description": "Multivitamin",
-      "conditionnement": "120ml"
-    }
-]
-}]
+  ]
+}
+

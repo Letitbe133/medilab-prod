@@ -125,7 +125,7 @@
               </div>          
               <div id="modal3" class="modal modal-fixed-footer">
                 <div class="modal-content">
-                  <h4>Regulation facts</h4>
+                  <h4 class="center-align">Regulation facts</h4>
                   <div class="row">
                     <div class="col s12">
                       <div class="card">
@@ -134,19 +134,6 @@
                         </div>
                         <div class="card-content">
                           Our specialties received an MAA in 14 countries.
-                          <div class="">
-                            <ul id="productsList" class="collapsible" data-collapsible="accordion">
-                              <li >
-                                <div class="collapsible-header">Bethamethazone</div>
-                                <div class="collapsible-body">
-                                  <ul id="betamethasone">
-
-                                  </ul>
-                                </div>
-                              </li>
-
-                            </ul>
-                          </div>
                         </div>
                       </div>
                     </div>
@@ -237,14 +224,84 @@
        	 </div>
        	</div><!--PRODUCT LINE-->
 	    	 <div class="row">  
-	       <form class="col s12 l10 offset-l1">
+	       <!-- <form class="col s12 l10 offset-l1">
 	         <div class="input-field">
 	         	<input id="search_bar">
 	         </div>
 	         <div >
 	           <input id="desc">
 	         </div>
-	       </form>
+         </form>
+          -->
+         <div class="container col s8 offset-s2">
+                <p class="center-align">
+                  <!-- Modal Trigger -->
+                  <!-- <button id="amm" class="btn waves-effect waves-light" data-target="modal3">More...</button> -->
+                  <a href="#" class=" btn waves-effect waves-light" data-target="modal3">Products list</a>
+                </p>
+              </div>
+
+              <!-- Modal Structure -->
+              <div id="modal3" class="modal modal-fixed-footer">
+                <div class="modal-content">
+                  <div class="row">
+                    <div class="col s12">
+                      <div class="card">
+                        <div class="card-content">
+                          Our specialties received an MAA in 14 countries.
+                          <div class="">
+                            <ul id="productsList" class="collapsible" data-collapsible="accordion">
+                            <?php
+
+                              $json_source = file_get_contents('products.json');
+                              $gamme = json_decode($json_source);
+                              foreach ($gamme->{'mollecule'} as $key) {
+                            ?>
+
+                                <li>
+                                  <div class="collapsible-header"><?php echo(ucfirst($key->{'name'})); ?></div>
+                                  <div class="collapsible-body">
+                                    <ul class="<?php echo($key->{'name'}); ?>">
+                                    <?php
+                                      foreach ($key->{'produits'} as $produit) {
+                                    ?>
+
+                                        <li class="btn"><?php echo($produit->{'name'}); ?></li>
+                                        <blockquote>
+                                          <?php echo("Conditionnement : " . $produit->{'type'});?><br />
+                                          <?php echo("Dosage : " . $produit->{'conditionnement'});?><br />
+                                          <?php echo("Mollécule : " . $produit->{'description'});?>
+                                        </blockquote>
+
+                                    <?php
+                                      }
+                                    ?>
+                                    
+                                    </ul>
+                      
+                                  </div>
+                                </li>
+                            
+                            <?php
+                              }
+
+                            ?>
+
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">clear</i></a>
+                </div>
+              </div>
+
+            </div>
+
+
 	       </div><!--PRODUCT FORM-->
         </div><!--PRODUCTS-->
       </section><!--SECTION PRODUCTS-->
@@ -277,7 +334,7 @@
             </p>
         </div>
         </div>
-        <div class="row">
+        <!-- <div class="row">
           <div class="col s12 m6 dark-green center">
             <h2 style="justify-content: center;" class="valign-wrapper"><i class="material-icons md-60 pale-green">check_circle</i>GMP</h2>
             <h6>Good Manufacturing Practice</h6>
@@ -286,7 +343,7 @@
             <h2 style="justify-content: center;" class="valign-wrapper"><i class="material-icons md-60 pale-green">check_circle</i>GDP</h2>
             <h6>Good Distribution Practice</h6>
           </div>
-        </div>
+        </div> -->
         </div>
         <div class="no-margin-bottom grey lighten-4">
           <div class="container" id="partners-logos" class="col s12 grey lighten-4">
