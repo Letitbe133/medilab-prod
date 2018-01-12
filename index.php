@@ -20,59 +20,11 @@
     <header>
 
       <!-- Fixed collapsible menu module start -->
-      <div class="navbar-fixed">
-        <nav>
-          <div class="nav-wrapper">
-            <a href="#" class="brand-logo center-align"><img class="responsive-img" src="assets/img/logos/logo-medilab.svg" alt="logo medilab" width="40%"/></a>
-            <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons md-36">menu</i></a>
-            <ul class="right hide-on-med-and-down table-of-contents">
-              <li><a class="dark-green" href="#about">About</a></li>
-              <li><a class="dark-green" href="#activities">Activities</a></li>
-              <li><a class="dark-green" href="#products">Products</a></li>
-              <li><a class="dark-green" href="#partners">Partners</a></li>
-              <li><a class="dark-green" href="#contact">Contact</a></li>
-            </ul>
-            <ul class="side-nav " id="mobile-menu">
-            <li class="active"><a class="dark-green" href="#about">About</a></li>
-            <li><a class="dark-green" href="#activities">Activities</a></li>
-            <li><a class="dark-green" href="#products">Products</a></li>
-            <li><a class="dark-green" href="#partners">Partners</a></li>
-            <li><a class="dark-green" href="#contact">Contact</a></li>
-          </ul>
-          </div>
-        </nav>
-      </div>
+
+      <?php include("private/views/nav.php") ?>
       <?php include("private/views/head-slider.php") ?>
-        <!-- Fixed collapsible menu module end -->
 
-     <!--           <div class="row">
-
-    <!-- Parallax module start 
-    <div class="parallax-container hide-on-small-only">
-              <div class="parallax">
-					 <img src="assets/img/we-care-for-you-medilab-1200.jpeg" alt="We care for you"/>
-              </div>
-            </div>
-
-            <div class="parallax-container hide-on-med-and-up">
-              <div class="parallax">
-				      <img src="assets/img/we-care-for-you-medilab-600.jpeg" alt="We care for you"/>
-              </div>
-            </div>
-          <!-- Parallax module end -->
-
-      <div class="tagline">
-          	<div class="row">
-            <div class="col s6 offset-s1">
-                <ul id="staggered1" ><li style="opacity: 0;"> <h1>Bridging talents</h1></li></ul>
-            </div>
-           <!-- <div class="col s11 offset-s1">
-              <h2>Because your health matters</h2>
-            </div>-->
-				</div>
-          </div> 
-        </div>
-    </header><!-- Header end -->
+     </header><!-- Header end -->
     <main>
       <section id="about" class="section scrollspy container">
         <div class="row">
@@ -82,7 +34,7 @@
           </div>
         </div><!--TITLE-->
         <div class="row">
-          <div class="col s12">
+          <div class="col s12 m6">
            	<div class="col l7 offset-l1">
            	<h3>Committed to greater accessibility of healthcare in developing countries</h3>
            	</div>
@@ -91,15 +43,18 @@
               As a major player in the distribution of medicine, our mission is to improve access to and provide high quality pharmaceuticals and medical supplies at the lowest possible price to the healthcare sector in developing countries..</p>
           	</div>
         	 </div>
+        	 <div class="col s12 m6">
+				<img class="responsive-img" src="assets/img/about-us-illustration-992.jpeg" alt="">        	 
+        	 </div>
         </div><!--CONTENT-->
         </section><!--SECTION ABOUT-->
-        <div id="parallax-2" class="parallax-container hide-on-small-only">
+      <!--  <div id="parallax-2" class="parallax-container hide-on-small-only">
           <div class="parallax">
             <img src="assets/img/about-us-illustration-1200+.jpeg" alt="Learn more about us"/>
           </div>
           				<div class="overlay"></div>
          </div>
- 			<div id="parallax-3" class="parallax-container hide-on-med-and-up">
+ 		<!--	<div id="parallax-3" class="parallax-container hide-on-med-and-up">
          	<div class="parallax ">
             <img src="assets/img/about-us-illustration-600.jpeg" alt="Learn more about us"/>
 				</div>
@@ -171,29 +126,23 @@
           </div>
           </div><!--PICTOS-->
       </section><!--SECTION ACTIVITIES-->
-      <section id="network" class="row grey lighten-4 no-margin-bottom">
-        <div class="col s12 m6 offset-m3 center-align">
-          <img class="img-responsive" src="assets/img/pictos/carte-monde-medilab.svg" alt="earth network" width="70%"/>
-        </div><!--CARTE-->
-        <div id="picto-location" class="col s12 m8 offset-m2 l6 offset-l3">
-              <div class="col s10 offset-s1 m5 offset-m1 ">
-                <i class="material-icons md-36 dark-red center-align">location_on</i>Two main dispatch locations
-              </div>
-              <div class="col s10 offset-s1 m5 offset-m1">
-                <i class="material-icons md-36 dark-green center-align">location_on</i>European based partners
-              </div>
-        </div><!--PICTO-LOCATIONS-->
-      </section><!--SECTION NETWORK-->
-      <div id="parallax-2" class="parallax-container hide-on-small-only">
-          <div class="parallax">
-            <img src= "assets/img/medications-cure-tablets-pharmacy-feuille-1200.jpeg" alt="Discover our products"/>
-          </div>
+      <section id="network" class=" container ">
+       <div class="row">
+        <div class="col s12 m8 offset-m2">
+          <div class="card">
+            <div class="card-image">
+              <img src="assets/img/pictos/carte-monde-medilab-l.png">
+             
+            </div>
+            <div class="card-content">
+              <p><i class="material-icons md-36 dark-red center-align">location_on</i>Two main dispatch locations <i class="material-icons md-36 dark-green center-align">location_on</i>European based partners</p>
+            </div>
+           </div>
+        </div>
       </div>
- 		<div id="parallax-3" class="parallax-container hide-on-med-and-up">
-         <div class="parallax ">
-            <img src= "assets/img/medications-cure-tablets-pharmacy-feuille-600.jpeg" alt="Discover our products"/>
-			</div>
-      </div><!--PARALLAX-->
+      
+      </section><!--SECTION NETWORK-->
+ 
       <section id="products" class="section scrollspy">
       	<div class="container">
         <div class="row">
@@ -208,22 +157,41 @@
 	        </div>
         </div><!--SUBTITLE-->
        <div class="row" id="product-line">
-         <div class="col l10 offset-l1">
-	         <div class="col s6 m3 ">      		
-						<img class="materialboxed responsive-img" width="200" src="assets/img/produits/gamme2018/Gamme1.jpg">	
+         <div class=" col l10 offset-l1">
+	         <div class=" col s12 m6 ">      		
+						<img class="card-panel responsive-img" width="" src="assets/img/produits/gamme2018/Gamme1.jpg">	
 				</div><!--PRODUCT IMG 1-->
-				<div class="col s6 m3 "> 
-						<img class="materialboxed responsive-img" width="200" src="assets/img/produits/gamme2018/Gamme2.jpg">
+				<div class="col s12 m6 "> 
+						<img class="card-panel responsive-img" width="" src="assets/img/produits/gamme2018/Gamme2.jpg">
 	      	</div><!--PRODUCT IMG 2-->	
-	      	<div class="col s6 m3 "> 
-						<img class="materialboxed responsive-img" width="200" src="assets/img/produits/gamme2018/Gamme3.jpg">
+	      	</div>
+	      	<div class=" col l10 offset-l1">
+	      	<div class="col s12 m6 "> 
+						<img class=" card-panel responsive-img" width="" src="assets/img/produits/gamme2018/Gamme3.jpg">
 				</div><!--PRODUCT IMG 3-->
-				<div class="col s6 m3 "> 
-						<img class="materialboxed responsive-img" width="200" src="assets/img/produits/gamme2018/Gamme4.jpg">      		
+				<div class="col s12 m6 "> 
+						<img class="card-panel responsive-img" width="" src="assets/img/produits/gamme2018/Gamme4.jpg">      		
 	      	</div><!--PRODUCT IMG 3-->
        	 </div>
        	</div><!--PRODUCT LINE-->
-	    	 <div class="row">  
+       	<div class="row col s12">
+	        <div class="col l7 offset-l1">
+	          <h3>Our specialties received an MAA in 14 countries. </h3>
+	        </div>
+        </div><!--SUBTITLE-->
+        
+  <div class="carousel">
+    <a class="carousel-item" href="#one!"><img src="assets/img/produits/carousel/amlodimed_10.jpg"></a>
+    <a class="carousel-item" href="#two!"><img src="assets/img/produits/carousel/amlodimed_5.jpg"></a>
+    <a class="carousel-item" href="#three!"><img src="assets/img/produits/carousel/atenomed_100.jpg"></a>
+    <a class="carousel-item" href="#four!"><img src="assets/img/produits/carousel/atenomed_50.jpg"></a>
+    <a class="carousel-item" href="#five!"><img src="assets/img/produits/carousel/ciproflox_500.jpg"></a>
+    <a class="carousel-item" href="#five!"><img src="assets/img/produits/carousel/ciproflox_750.jpg"></a>
+  </div>
+      
+
+
+	    
 	       <!-- <form class="col s12 l10 offset-l1">
 	         <div class="input-field">
 	         	<input id="search_bar">
@@ -305,7 +273,7 @@
 	       </div><!--PRODUCT FORM-->
         </div><!--PRODUCTS-->
       </section><!--SECTION PRODUCTS-->
-      <div id="parallax-2" class="parallax-container hide-on-small-only">
+      <!--<div id="parallax-2" class="parallax-container hide-on-small-only">
           <div class="parallax">
             <img src= "assets/img/clasped-hands-comfort-hands-people-1200.jpeg" alt="Discover our products"/>
           </div>
@@ -315,7 +283,7 @@
             <img src= "assets/img/clasped-hands-comfort-hands-people-600.jpeg" alt="Discover our products"/>
 			</div>
       </div><!--PARALLAX-->   
-      <section id="partners" class="section scrollspy no-margin-bottom ">
+      <section id="partners" class="section scrollspy  ">
 		<div class="container">
         <div class="row">
           <div class="col s12">
@@ -323,17 +291,29 @@
             <div class="col s6 offset-s2 m2 offset-m1 underline"></div>
           </div>
         </div>
-        <div class="row col s12">
-        <div class="col l7 offset-l1">
+        <div class="row">
+      
+        <div class="col s12 m7 offset-l1">
           <h3>High quality through trusted partners</h3>
         </div>
-        <div class="col l10 offset-l1">
+    
+        <div class="col s12 m6 offset-l1">
           <p>We strive for building fair and close bounds with manufacturers of pharmaceuticals goods that comply with our quality standards.<br/>
             Medilab only collaborates with suppliers that are pre-qualified by us and meet the GMP and GDP norms laid by the <a href="http://www.who.int/en/" target=blank>World Health Organization</a>.<br/>
             The process covers screening of documentation, assessment of products along with site and on-site audits.
             </p>
         </div>
+
+        <div class="col s12 m3 offset-m1 center-align">
+			<div class="card-panel logo col s12  center-align">
+              <a href="http://www.ubipharm.com" target="_blank"><img class="responsive-img" src="assets/img/logos/logo-ubipharm.png" alt="logo-ubipharm"  ></a>
+            </div>
+            <div class="card-panel logo col s12 center-align">
+              <a href="http://www.ds-promo.fr" target="_blank"><img class="responsive-img" src="assets/img/logos/Logo-DS.png" alt="" ></a>
+            </div>        
         </div>
+        </div>
+        
         <!-- <div class="row">
           <div class="col s12 m6 dark-green center">
             <h2 style="justify-content: center;" class="valign-wrapper"><i class="material-icons md-60 pale-green">check_circle</i>GMP</h2>
@@ -345,7 +325,7 @@
           </div>
         </div> -->
         </div>
-        <div class="no-margin-bottom grey lighten-4">
+     <!--   <div class="no-margin-bottom grey lighten-4">
           <div class="container" id="partners-logos" class="col s12 grey lighten-4">
 				<div class="row">
             <div class="logo col s12 m6 center-align">
@@ -355,7 +335,7 @@
               <a href="http://www.ds-promo.fr" target="_blank"><img class="responsive-img" src="assets/img/logos/Logo-DS.png" alt="" ></a>
             </div>
            </div>
-			</div>
+			</div>-->
         </div>
       </section><!--SECTION PARTNERS-->
       <section id="contact" class="section container scrollspy">

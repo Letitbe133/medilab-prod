@@ -10,7 +10,7 @@ $(function(){
   $('.collapsible').collapsible();
 
   // Initialisation parallax
-  $('.parallax').parallax();
+ // $('.parallax').parallax();
 
   // Initialisation Carousel
      $('.carousel').carousel();

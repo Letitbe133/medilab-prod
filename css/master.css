@@ -72,8 +72,17 @@ h2 {
 h3 {
   font-size: 1.7rem;
 }
+.brand-logo img{
+	width: 35%;
+}    
 .brand-logo {
 	padding: 5px!important;
+}
+.arrow  {
+	position: absolute;
+	bottom: 55px;
+	width: 100%;
+	z-index: 5;
 }
 a, a:active, a:visited {
   text-decoration: none;
@@ -89,7 +98,9 @@ position: absolute;
   z-index: 2;
   background-color: rgba(0,0,0,0.4);
 }
-
+header {
+	height: 95vh;
+}
 #parallax-3 {
 		height:200px;
 
@@ -234,18 +245,20 @@ footer h3 {
 	padding-bottom: 0px;
 }
 
-#network {
+/*#network {
 	margin-top: -50px;
 	padding-bottom: 50px;
 	padding-top: 50px;
-}
+}*/
 #picto-location {
 	padding-top: 70px;
 }
 .logo {
 	padding: 20px!important;
 }
-
+.carousel .carousel-item {
+width: 350px;
+}
 /* Indicateurs slider 
 .indicators .indicator-item {
   background-color: lightgrey!important;
@@ -336,6 +349,17 @@ footer h3 {
   }
 }
 
+@media (min-width: 600px) {
+	nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+
+    height: 100px;
+    line-height: 100px;}
+.brand-logo img{
+	padding-top: 15px;
+	width: 50%;
+}    
+    }
+    
 @media (min-width: 992px) {
   h1 {
     font-size: 5rem;
@@ -373,9 +397,9 @@ footer h3 {
     width: auto;
   }
 
-  #network div img {
+ /* #network div img {
     width: 45%;
-  }
+  }*/
 
  /* .slider-css {
     width: 520px;
