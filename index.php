@@ -128,14 +128,25 @@
       </section><!--SECTION ACTIVITIES-->
       <section id="network" class=" container ">
        <div class="row">
-        <div class="col s12 m8 offset-m2">
+        <div class="col s12 m6">
           <div class="card">
             <div class="card-image">
-              <img src="assets/img/pictos/carte-monde-medilab-l.png">
-             
+              <img src="assets/img/pictos/carte-monde-medilab-afrique.png">
+             <span class="white-text card-title">Organisation mondiale – AFRIQUE</span>
             </div>
             <div class="card-content">
-              <p><i class="material-icons md-36 dark-red center-align">location_on</i>Two main dispatch locations <i class="material-icons md-36 dark-green center-align">location_on</i>European based partners</p>
+              <p>Medilab UK Filiale SARL, est une succursale de MEDILAB UK pour l’Afrique de l’Ouest et l’Afrique Centrale créée en 2005, dans le but d’approvisionner la sous-région, Mali</p>
+            </div>
+           </div>
+        </div>
+         <div class="col s12 m6">
+          <div class="card">
+            <div class="card-image">
+              <img src="assets/img/pictos/carte-monde-medilab-moyen-orient.png">
+             <span class="white-text card-title">Organisation mondiale : Moyent - Orient</span>
+            </div>
+            <div class="card-content">
+              <p>MID (MEDILAB International DUBAI) a été créée en 2015, et est une filiale à 100% de MEDILAB UK Int. LTD</p>
             </div>
            </div>
         </div>

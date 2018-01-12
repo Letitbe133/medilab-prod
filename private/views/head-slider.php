@@ -2,7 +2,7 @@
     <ul class="slides">
       <li>
         <img class="responsive-img" src="assets/img/slider/img-slider-4.jpg" alt="We care for you"> <!-- 1ere image -->
-      </li>
+        </li>
       <li>
         <img class="responsive-img" src="assets/img/slider/img-slider-1.jpg" alt="We care for you"> <!-- 2eme image -->
       </li>
@@ -22,9 +22,10 @@
             <div class="col s6 offset-s1">
                 <ul id="staggered1" ><li style="opacity: 0;"> <h1>Bridging talents</h1></li></ul>
             </div>
-           <!-- <div class="col s11 offset-s1">
-              <h2>Because your health matters</h2>
-            </div>-->
+           <div class="col s11 offset-s1">
+             <blockquote>Nous rapprochons les populations de produits de qualité, en offrant des garanties sur la provenance et les composants médicinaux, en visant constamment le meilleur rapport qualité/prix, et ce dans le respect des normes en cours.</blockquote>
+     
+            </div>
 				</div>
           </div> 
       <div class="row ">
