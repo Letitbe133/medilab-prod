@@ -39,7 +39,7 @@
            	<h3>Committed to greater accessibility of healthcare in developing countries</h3>
            	</div>
            	<div class="col l10 offset-l1">
-            <p>Since 1993, we offer a wide range of high quality pharmaceuticals through professional healthcare outlets, hospitals, pharmacies and much more.<br/>
+            <p>Since 2003, we offer a wide range of high quality pharmaceuticals through professional healthcare outlets, hospitals, pharmacies and much more.<br/><br/>
               As a major player in the distribution of medicine, our mission is to improve access to and provide high quality pharmaceuticals and medical supplies at the lowest possible price to the healthcare sector in developing countries..</p>
           	</div>
         	 </div>
@@ -75,10 +75,10 @@
               </div>
               <div class="container col s8 offset-s2">
                 <p class="center-align">We maintain high quality standards for our whole products range<br/>
-                  <button id="amm" class="btn waves-effect waves-light" data-target="modal3">More...</button><!-- Modal Trigger -->
+                  <button id="amm" class="btn waves-effect waves-light" data-target="manufacturing">More...</button><!-- Modal Trigger -->
                 </p>
               </div>          
-              <div id="modal3" class="modal modal-fixed-footer">
+              <div id="manufacturing" class="modal modal-fixed-footer">
                 <div class="modal-content">
                   <h4 class="center-align">Regulation facts</h4>
                   <div class="row">
@@ -88,9 +88,23 @@
                           Approved medicines
                         </div>
                         <div class="card-content">
+                          <ul>
+                            <li>Our specialties received an MAA in 14 countries.</li>
+                            <li>Our specialties received an MAA in 14 countries.</li>
+
+                          </ul>
+                          
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-title center">
+                          Approved medicines
+                        </div>
+                        <div class="card-content">
                           Our specialties received an MAA in 14 countries.
                         </div>
                       </div>
+
                     </div>
                   </div>
                   <div class="row">
@@ -112,16 +126,106 @@
                 <img src="assets/img/pictos/hands.png" alt="Trusted partners"/>
               </div>
               <div class="container col s8 offset-s2">
-                <p class="center-align">We believe in long-term business and open-minded relationships with our suppliers.</p>
+                <p class="center-align">We believe in long-term business and open-minded relationships with our suppliers.<br/>
+                <button id="amm" class="btn waves-effect waves-light" data-target="partnership">More...</button><!-- Modal Trigger -->
+                </p>
               </div>
+              <div id="partnership" class="modal modal-fixed-footer">
+                <div class="modal-content">
+                  <h4 class="center-align">Regulation facts</h4>
+                  <div class="row">
+                    <div class="col s12">
+                      <div class="card">
+                        <div class="card-title center">
+                          Approved medicines
+                        </div>
+                        <div class="card-content">
+                          <ul>
+                            <li>Our specialties received an MAA in 14 countries.</li>
+                            <li>Our specialties received an MAA in 14 countries.</li>
+
+                          </ul>
+                          
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-title center">
+                          Approved medicines
+                        </div>
+                        <div class="card-content">
+                          Our specialties received an MAA in 14 countries.
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col s12 l6">
+                      <a target="blank" type="application/pdf" class="btn waves-effect" href="https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/474366/Best_practice_guidance_labelling_and_packaging_of_medicines.pdf">Packaging best practices</a>
+                    </div>
+                    <div class="col s12 l6">
+                      <a target="blank" type="application/pdf" class="btn waves-effect" href="https://www.fagg-afmps.be/sites/default/files/content/etiquetage_des_medicaments.pdf">Labelling best practices</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">clear</i></a>
+                </div>
+              </div><!-- Modal Structure -->
+
             </div><!--PICTO 2-->
             <div class="col s12 l4">
               <div class="col s12  center-align">
                 <img src="assets/img/pictos/earth-arrow-blue.png" alt="We deliver"/>
               </div>
               <div class="container col s8 offset-s2">
-                <p class="center-align">we deliver a wide range of tailor-made safe and cost-effective products</p>
+                <p class="center-align">we deliver a wide range of tailor-made safe and cost-effective products<br/>
+                <button id="amm" class="btn waves-effect waves-light" data-target="logistics">More...</button><!-- Modal Trigger -->
+                </p>
               </div>
+              <div id="logistics" class="modal modal-fixed-footer">
+                <div class="modal-content">
+                  <h4 class="center-align">Regulation facts</h4>
+                  <div class="row">
+                    <div class="col s12">
+                      <div class="card">
+                        <div class="card-title center">
+                          Approved medicines
+                        </div>
+                        <div class="card-content">
+                          <ul>
+                            <li>Our specialties received an MAA in 14 countries.</li>
+                            <li>Our specialties received an MAA in 14 countries.</li>
+
+                          </ul>
+                          
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-title center">
+                          Approved medicines
+                        </div>
+                        <div class="card-content">
+                          Our specialties received an MAA in 14 countries.
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col s12 l6">
+                      <a target="blank" type="application/pdf" class="btn waves-effect" href="https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/474366/Best_practice_guidance_labelling_and_packaging_of_medicines.pdf">Packaging best practices</a>
+                    </div>
+                    <div class="col s12 l6">
+                      <a target="blank" type="application/pdf" class="btn waves-effect" href="https://www.fagg-afmps.be/sites/default/files/content/etiquetage_des_medicaments.pdf">Labelling best practices</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">clear</i></a>
+                </div>
+              </div><!-- Modal Structure -->
+
             </div><!--PICTO 3-->
           </div>
           </div><!--PICTOS-->
@@ -131,8 +235,8 @@
         <div class="col s12 m6">
           <div class="card">
             <div class="card-image">
-              <img src="assets/img/pictos/carte-monde-medilab-afrique.png">
-             <span class="white-text card-title">Organisation mondiale – AFRIQUE</span>
+              <img src="assets/img/pictos/carte-monde-medilab-afrique.png"><br/>
+             <span class="white-text card-title">Medilab Intl – Africa</span>
             </div>
             <div class="card-content">
               <p>Medilab UK Filiale SARL, est une succursale de MEDILAB UK pour l’Afrique de l’Ouest et l’Afrique Centrale créée en 2005, dans le but d’approvisionner la sous-région, Mali</p>
@@ -143,7 +247,7 @@
           <div class="card">
             <div class="card-image">
               <img src="assets/img/pictos/carte-monde-medilab-moyen-orient.png">
-             <span class="white-text card-title">Organisation mondiale : Moyent - Orient</span>
+             <span class="white-text card-title">Medilab Intl – Middle-East</span><br/>
             </div>
             <div class="card-content">
               <p>MID (MEDILAB International DUBAI) a été créée en 2015, et est une filiale à 100% de MEDILAB UK Int. LTD</p>
@@ -163,8 +267,9 @@
           </div>
          </div><!--TITLE-->
         <div class="row col s12">
-	        <div class="col l7 offset-l1">
-	          <h3>2018 product line </h3>
+	        <div class="col l12 center-align">
+	          <h3>We're proud to introduce our 2018 products line </h3><br/>
+            <span>Click on thumbnails to enlarge</span>
 	        </div>
         </div><!--SUBTITLE-->
        <div class="row" id="product-line">
@@ -185,9 +290,9 @@
 	      	</div><!--PRODUCT IMG 3-->
        	 </div>
        	</div><!--PRODUCT LINE-->
-       	<div class="row col s12">
-	        <div class="col l7 offset-l1">
-	          <h3>Our specialties received an MAA in 14 countries. </h3>
+       	<div class="row col s12 center-align">
+	        <div class="col l12">
+	          <h3>A sample of our best-sellers</h3>
 	        </div>
         </div><!--SUBTITLE-->
         
@@ -216,7 +321,7 @@
                 <p class="center-align">
                   <!-- Modal Trigger -->
                   <!-- <button id="amm" class="btn waves-effect waves-light" data-target="modal3">More...</button> -->
-                  <a href="#" class=" btn waves-effect waves-light" data-target="modal3">Products list</a>
+                  <a href="#" class=" btn waves-effect waves-light" data-target="modal3">Browse through our products list for more</a>
                 </p>
               </div>
 
@@ -227,7 +332,7 @@
                     <div class="col s12">
                       <div class="card">
                         <div class="card-content">
-                          Our specialties received an MAA in 14 countries.
+                          <P class="center-align">Click on any mollecule to access the related products.</P>
                           <div class="">
                             <ul id="productsList" class="collapsible" data-collapsible="accordion">
                             <?php
@@ -309,8 +414,8 @@
         </div>
     
         <div class="col s12 m6 offset-l1">
-          <p>We strive for building fair and close bounds with manufacturers of pharmaceuticals goods that comply with our quality standards.<br/>
-            Medilab only collaborates with suppliers that are pre-qualified by us and meet the GMP and GDP norms laid by the <a href="http://www.who.int/en/" target=blank>World Health Organization</a>.<br/>
+          <p>We strive for building fair and close bounds with manufacturers of pharmaceuticals goods that comply with our quality standards.<br/><br/>
+            Medilab only collaborates with suppliers that are pre-qualified by us and meet the GMP and GDP norms laid by the <a href="http://www.who.int/en/" target=blank>World Health Organization</a>.<br/><br/>
             The process covers screening of documentation, assessment of products along with site and on-site audits.
             </p>
         </div>
