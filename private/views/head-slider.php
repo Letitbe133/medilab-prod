@@ -22,9 +22,11 @@
             <div class="col s6 offset-s1">
                 <ul id="staggered1" ><li style="opacity: 0;"> <h1>Bridging talents</h1></li></ul>
             </div>
-           <div class="col s11 offset-s1">
+           <div  id="staggered2"  class="col s11 offset-s1 m8 offset-m2" style="opacity: 0;">
+           <ul><li>
              <blockquote>Nous rapprochons les populations de produits de qualité, en offrant des garanties sur la provenance et les composants médicinaux, en visant constamment le meilleur rapport qualité/prix, et ce dans le respect des normes en cours.</blockquote>
-     
+     </li>
+     </ul>
             </div>
 				</div>
           </div> 
