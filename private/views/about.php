@@ -21,27 +21,21 @@
         </section><!--SECTION ABOUT-->
         
  
-<section id="divider-2" class="row  padding-top padding-bottom">
+<section id="divider-2" class="row scrollspy padding-top padding-bottom">
         
               <div class="col s12 m8 offset-m2">
 			<ul id="staggered3">
 			<li style="opacity: 0;">
-	  		<blockquote class="white-text margin-bottom">1. CONSOLIDATION
-	       Les produits provenant du monde entier sont regroupés dans notre magasin de   
-	       Dubaï avant d’être expédiés vers la destination finale. Ceci dans le but   
-	       d’optimiser la chaine d’approvisionnement.</blockquote>  
+	  		<blockquote class="white-text margin-bottom">1. GROUPAGE : Goods from our worldwide suppliers are stored in our Dubaï warehouse before being dispatched to final destinations in order to optimize the supply chain.</blockquote>  
 	       </li>
 	       <li style="opacity: 0;">                    
-		 <blockquote class="white-text margin-bottom">2. MISE en KITS
-Les produits provenant de différents producteurs sont emballés sous forme de kits pour faciliter la distribution domestique.</blockquote> 
+		 <blockquote class="white-text margin-bottom">2. STORAGE : We provide dedicated storage zones for clients and supliers to shorten delivery time.</blockquote> 
 		</li>       
        <li style="opacity: 0;">
-       <blockquote class="white-text margin-bottom">3. STOCKAGE
-Des zones de stockage dédiées sont disponibles pour les clients et les producteurs de façon à réduire les délais de livraisons.</blockquote> 
+       <blockquote class="white-text margin-bottom">3. KITS MANUFACTURING : Products from our various suppliers are packed as kits to facilitate domestic distribution.</blockquote> 
 			</li>       
        <li style="opacity: 0;">
-       <blockquote class="white-text margin-bottom">4. CENTRE de SERVICES 
-Achats, Logistique, Ventes et Finance.</blockquote> 
+       <blockquote class="white-text margin-bottom">4. SERVICE PLATFORM : We provide an integrated Service Platform for Purchasing, Logistics, Sales and Finance.</blockquote> 
        
        </li>
                         </div>

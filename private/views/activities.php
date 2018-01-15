@@ -1,10 +1,10 @@
-      <div class="row">
+      <div class="row "  id="card-img" style="opacity:0;">
         <div class="col s12 m4">
-          <div class="card">
+          <div  class="card">
             <div class="card-image">
-              <img src="assets/img/pictos/earth-arrow-blue-img.png" alt="We deliver"/>
+              <img src="assets/img/pictos/pills-img.png" alt="We deliver"/>
             </div>
-            <div class="card-content center-align">
+            <div class="card-content card-height center-align">
               <p class="center-align">We maintain high quality standards for our whole products range<br/></p>
               <button id="amm" class=" btn waves-effect waves-light" data-target="manufacturing">More...</button><!-- Modal Trigger -->
             </div>
@@ -45,9 +45,9 @@
         <div class="col s12 m4">
           <div class="card">
             <div class="card-image">
-              <img src="assets/img/pictos/earth-arrow-blue-img.png" alt="We deliver"/>
+              <img src="assets/img/pictos/hands-img.png" alt="We deliver"/>
             </div>
-            <div class="card-content">
+            <div class="card-content card-height">
               <p class="center-align">We believe in long-term business and open-minded relationships with our suppliers.</p>
             </div>
            
@@ -59,8 +59,8 @@
             <div class="card-image">
               <img src="assets/img/pictos/earth-arrow-blue-img.png" alt="We deliver"/>
             </div>
-            <div class="card-content">
-           <p class="center-align">we deliver a wide range of tailor-made safe and cost-effective products</p>
+            <div class="card-content card-height">
+           <p class="center-align">We deliver a wide range of tailor-made safe and cost-effective products</p>
             
           </div>
           

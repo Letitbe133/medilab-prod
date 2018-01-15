@@ -24,14 +24,14 @@
             </div>
            <div  id="staggered2"  class="col s11 offset-s1 m8 offset-m2" style="opacity: 0;">
            <ul><li>
-             <blockquote>Nous rapprochons les populations de produits de qualité, en offrant des garanties sur la provenance et les composants médicinaux, en visant constamment le meilleur rapport qualité/prix, et ce dans le respect des normes en cours.</blockquote>
+             <blockquote>We bring populations closer to quality products. We continuously strive to offer the best deal, in compliance with existing standards, by offering guarantees on the origin and quality of medicinal compounds.</blockquote>
      </li>
      </ul>
             </div>
 				</div>
           </div> 
       <div class="row ">
-		<div class="arrow center-align col s12">
+		<div class="arrow center-align col s12 hide-on-small-only">
 		<a href="#about" class="scrollTo btn btn-floating  pulse white"  alt="Faites défiler pour en savoir plus"><i class="material-icons grey-text">&#xE313;</i></a> 			
 	
 		</div>

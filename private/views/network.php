@@ -13,7 +13,7 @@
               <img src="assets/img/pictos/carte-monde-medilab-afrique.png">
              <span class="white-text card-title">Medilab Intl – Africa</span>
             </div>
-            <div class="card-content">
+            <div class="card-content card-height">
               <p>Medilab UK Filiale SARL, is a subsidiary of MEDILAB UK for West and Central Africa founded in 2005, to supply the sub-region, Mali</p>
             </div>
            </div>
@@ -24,7 +24,7 @@
               <img src="assets/img/pictos/carte-monde-medilab-moyen-orient.png">
              <span class="white-text card-title">Medilab Intl – Middle-East</span>
             </div>
-            <div class="card-content">
+            <div class="card-content card-height">
               <p>MID (MEDILAB International DUBAI) was founded in 2015, and is a fully owned subsidiary of MEDILAB UK Int. LTD</p>
             </div>
            </div>
@@ -37,7 +37,7 @@
               <div class="col s12 m8 offset-m2 ">
 					<ul id="staggered5">
 					<li style="opacity: 0;">
-                            <blockquote class="white-text">MEDILAB vise à être le fournisseur préféré de médicaments génériques, de génériques de marque, et d’équipements médicaux au bénéfice des pays privilégiant la qualité.
+                            <blockquote class="white-text">MEDILAB aims at being quality focused countries' first choice supplier for branded generics and medical equipments.
 									</blockquote>                            
                             </div>
                </li>
