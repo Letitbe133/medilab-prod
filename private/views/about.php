@@ -26,16 +26,16 @@
               <div class="col s12 m8 offset-m2">
 			<ul id="staggered3">
 			<li style="opacity: 0;">
-	  		<blockquote class="white-text margin-bottom">1. GROUPAGE : Goods from our worldwide suppliers are stored in our Dubaï warehouse before being dispatched to final destinations in order to optimize the supply chain.</blockquote>  
+	  		<blockquote class="white-text margin-bottom">GROUPAGE : Goods from our worldwide suppliers are stored in our Dubaï warehouse before being dispatched to final destinations in order to optimize the supply chain.</blockquote>  
 	       </li>
 	       <li style="opacity: 0;">                    
-		 <blockquote class="white-text margin-bottom">2. STORAGE : We provide dedicated storage zones for clients and supliers to shorten delivery time.</blockquote> 
+		 <blockquote class="white-text margin-bottom">STORAGE : We provide dedicated storage zones for clients and supliers to shorten delivery time.</blockquote> 
 		</li>       
        <li style="opacity: 0;">
-       <blockquote class="white-text margin-bottom">3. KITS MANUFACTURING : Products from our various suppliers are packed as kits to facilitate domestic distribution.</blockquote> 
+       <blockquote class="white-text margin-bottom">KITS MANUFACTURING : Products from our various suppliers are packed as kits to facilitate domestic distribution.</blockquote> 
 			</li>       
        <li style="opacity: 0;">
-       <blockquote class="white-text margin-bottom">4. SERVICE PLATFORM : We provide an integrated Service Platform for Purchasing, Logistics, Sales and Finance.</blockquote> 
+       <blockquote class="white-text margin-bottom">SERVICE PLATFORM : We provide an integrated Service Platform for Purchasing, Logistics, Sales and Finance.</blockquote> 
        
        </li>
                         </div>
