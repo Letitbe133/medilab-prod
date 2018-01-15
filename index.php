@@ -269,7 +269,8 @@
 			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
 			  crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
-    <script src="libs/EasyAutocomplete/jquery.easy-autocomplete.js"></script>
+    <script type="text/javascript" src="js/heights.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
+    <noscript>Please enable Javascript in your browser for correct rendering !</noscript>
   </body>
 </html>
