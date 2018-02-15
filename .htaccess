@@ -3,8 +3,8 @@ AddType text/x-component .htc
 
 DirectoryIndex index.php
 
-#ErrorDocument 404 http://www.medilab.one/404.php
-#ErrorDocument 403 http://www.medilab.one/403.php
+ErrorDocument 404 http://www.medilab.one/404.php
+ErrorDocument 403 http://www.medilab.one/403.php
 #ErrorDocument 401 http://www.medilab.one/401.php
 
 
