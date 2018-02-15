@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="http://fonts.googleapis.com/css?family=Poppins:300,400,400italic,600,700|Open+Sans:300,400,600,700,800,900" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
-    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/master.min.css">
     <link rel="Shortcut icon" href="favicon.ico" type="image/x-icon" />
 <!-- Open Graph Meta Tags -->
 	<meta property="og:title" content="Medilab, Bridging talents" />
@@ -44,8 +44,8 @@
 			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
 			  crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
-    <script type="text/javascript" src="js/heights.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/heights.min.js"></script>
+    <script type="text/javascript" src="js/main.min.js"></script>
     <noscript>Please enable Javascript in your browser for correct rendering !</noscript>
   </body>
 </html>
