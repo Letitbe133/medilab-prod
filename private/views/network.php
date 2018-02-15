@@ -2,7 +2,7 @@
       <section id="network" class=" container ">
       <div class="row">
           <div class="col s12 margin-top margin-bottom">
-            <h2 class="dark-green">World</br> Organisation</h2>
+            <h2 class="dark-green">World<br> Organisation</h2>
             <div class="col s6 offset-s2 m2 offset-m1 underline"></div>
           </div>
          </div><!--TITLE-->
@@ -10,7 +10,7 @@
         <div class="col s12 m6">
           <div class="card">
             <div class="card-image">
-              <img src="assets/img/pictos/carte-monde-medilab-afrique.png">
+              <img src="assets/img/pictos/carte-monde-medilab-afrique.png" alt="Carte monde Medilab Afrique">
              <span class="white-text card-title">Medilab Intl – Africa</span>
             </div>
             <div class="card-content card-height">
@@ -21,7 +21,7 @@
          <div class="col s12 m6">
           <div class="card">
             <div class="card-image">
-              <img src="assets/img/pictos/carte-monde-medilab-moyen-orient.png">
+              <img src="assets/img/pictos/carte-monde-medilab-moyen-orient.png" alt="Carte monde Medilab Moyen-Orient">
              <span class="white-text card-title">Medilab Intl – Middle-East</span>
             </div>
             <div class="card-content card-height">
@@ -32,16 +32,14 @@
       </div>
       
       </section><!--SECTION NETWORK-->
-      <section id="divider-1" class="row valign-wrapper padding-top padding-bottom">
-        
-              <div class="col s12 m8 offset-m2 ">
+      <section id="divider-1" class="row valign-wrapper padding-top padding-bottom">        
+        <div class="col s12 m8 offset-m2 ">
 					<ul id="staggered5">
-					<li style="opacity: 0;">
-                            <blockquote class="white-text">MEDILAB aims at being quality focused countries' first choice supplier for branded generics and medical equipments.
-									</blockquote>                            
-                            </div>
-               </li>
+						<li style="opacity: 0;">
+	                  <blockquote class="white-text">MEDILAB aims at being quality focused countries' first choice supplier for branded generics and medical equipments.
+							</blockquote>  
+	               </li>
                </ul>
-
-              </section>
+			</div>
+      </section>
                             

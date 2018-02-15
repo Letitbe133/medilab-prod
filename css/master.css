@@ -1,27 +1,42 @@
-/* Charte graphique
+/*---------------------------------------------------------------------
+	* @site   www.medilab.one
+	* @autors cooldev crew
+	* @media responsive
+	* @version 2.0
+	* @lastmodified Fev, 15 2018
+	
+	-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+					[Table of contents]
+					
+					1. COLORS
+					2. HELPERS
+					3. GENERAL
+					4. TYPO generic
+					5. HEADER
+					6. NAV
+					7. SECTIONS
+					8. MODALS
+					9. DIVIDERS 
+					10. FOOTER
+					11. MEDIA QUERIES
+-------------------------------------------------------------------*/
 
-Vert foncé titres : 197648ff (25, 118, 72)
-Rouge : e5322dff (229, 50, 45)
-Vert clair pictos : 3fd68bff (63, 214, 139)
-Bleu : 0097c6ff (0, 151, 198)
+/*
 
-
+	 ***********************  
+    
+    ***   1. Colors     ***
+    
+    ***********************
+    
+    
+			Vert foncé titres : 197648ff (25, 118, 72)
+			Rouge : e5322dff (229, 50, 45)
+			Vert clair pictos : 3fd68bff (63, 214, 139)
+			Bleu : 0097c6ff (0, 151, 198)
+			
 */
-
-/* Helpers material-icons*/
-
-.material-icons.md-18 { font-size: 18px; }
-
-.material-icons.md-24 { font-size: 24px; }
-
-.material-icons.md-36 { font-size: 36px; }
-
-.material-icons.md-48 { font-size: 48px; }
-
-.material-icons.md-60 { font-size: 60px; }
-
-/* Base colours */
-
 .dark-green {
   color: rgba(25, 118, 72, 1);
   background-color: transparent;
@@ -41,6 +56,26 @@ Bleu : 0097c6ff (0, 151, 198)
   color: rgba(0, 151, 198, 1);
   background-color: transparent;
 }
+
+/* 
+	***********************
+	
+	**      2.HELPERS    **
+	
+	***********************
+	*/
+/* Helpers material-icons*/
+
+.material-icons.md-18 { font-size: 18px; }
+
+.material-icons.md-24 { font-size: 24px; }
+
+.material-icons.md-36 { font-size: 36px; }
+
+.material-icons.md-48 { font-size: 48px; }
+
+.material-icons.md-60 { font-size: 60px; }
+
 .margin-top {
 	margin-top: 50px;
 }
@@ -53,34 +88,42 @@ Bleu : 0097c6ff (0, 151, 198)
 .padding-bottom {
 	padding-bottom: 50px;
 }
-/*#partners-logos img {
-  display: none;
+.no-margin-bottom {
+	padding-bottom: 20px;
+	margin-bottom: 0px;
 }
 
-.activeImage {
-  display: block!important;
-}*/
-
-
-/* Style général */
+/* 
+	***********************
+	
+	**     3.GENERAL     **
+	
+	***********************
+	*/
 
 html, body {
   font-family: 'Open Sans', sans-serif;
-
   color: #777777;
 }
-
+a, a:active, a:visited {
+  text-decoration: none;
+}
+/* 
+	***********************
+	
+	**      4. TYPO      **
+	
+	***********************
+	*/
 h1 {
   font-family: 'poppins', sans-serif;
   font-size: 3rem;
 }
-
 h2 {
   font-family: 'poppins', sans-serif;
   font-size: 2rem;
   font-weight: bold;
-  border-bottom:: 1px solid red;
-  
+  border-bottom:: 1px solid red;  
 }
 
 h3 {
@@ -95,9 +138,18 @@ p {
 blockquote {
 		color: white;
 }
-.modal-blockquote {
-	color: grey;
+/* 
+	***********************
+	
+	**    5. HEADER      **
+	
+	***********************
+	*/
+header {
+	z-index: 1;
 }
+
+
 .brand-logo img{
 	width: 35%;
 }    
@@ -110,10 +162,6 @@ blockquote {
 	width: 100%;
 	z-index: 5;
 }
-a, a:active, a:visited {
-  text-decoration: none;
-}
-
 
 .overlay {
 position: absolute;
@@ -127,31 +175,7 @@ position: absolute;
 header {
 	height: 95vh;
 }
-#divider-1 {
-		min-height:70vh;
-		background-size: cover;
-		background-image: url(../assets/img/divider-1.jpg);
-		background-attachment: fixed;
-		background-position: center;
-		background-color: black;
-		background-repeat: no-repeat;
 
-}
-#divider-2 {
-		min-height:70vh;
-		background-size: cover;
-		background-image: url(../assets/img/divider-2.jpeg);
-		background-attachment: fixed;
-		background-position: center;
-		background-color: black;
-		background-repeat: no-repeat;
-		
-
-
-}
-#parallax-2 {
-		height: 400px;
-}
 
 .tagline, .tagline a {
   color: white;
@@ -170,16 +194,19 @@ header {
   font-weight: 900;
 }
 
-/* Menu */
+/* 
+	***********************
+	
+	**     6. NAV        **
+	
+	***********************
+	*/
 
 nav {
   position: absolute;
   top: 0;
   left: 0;
- /* background-color: rgba(0, 0, 0, 0.2);*/
  background-color: white;
-  box-shadow: ;
-  /*padding-right: 10vw;*/
 }
 
 .nav-wrapper li>a, .side-nav li>a{
@@ -188,21 +215,6 @@ nav {
   padding-bottom: 30px;
   color:grey;
 }
-
-/*.table-of-contents a.active {
-  border-bottom: 1px solid white;
-  border-left: none;
-}
-
-/*.table-of-contents a:hover {
-  background-color: transparent;
-  border-left: none;
-}
-
-.table-of-contents li:hover {
-  background-color: rgba(0,0,0,0.1);
-  transition: background-color .3s;
-}*/
 
 .button-collapse i {
   color: rgba(229, 50, 45, 1);
@@ -218,9 +230,16 @@ nav {
   opacity: .9;
   width: 200px;
 }
-header {
-	z-index: 1;
+.logo {
+	padding: 20px!important;
 }
+/* 
+	***********************
+	
+	**   7. SECTIONS     **
+	
+	***********************
+	*/
 
 #about {
 	margin-top:10vh;
@@ -237,40 +256,10 @@ section p {
 .underline {
   border-bottom: 2px solid red;
 }
-
-footer {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1rem;
-}
-.emphase {
-	margin: 20px 0;
-	padding-left: 1.5rem;
-	border-left-color: grey!important;
-	border-left-width: 3px;
-	border-left-style: solid;
-}
-footer h2 {
-  font-size: 2rem;
-  margin-bottom: 30px;
-}
-footer h3 {
-	font-size: 1.1rem;
-	font-weight: bold;
-}
-footer p {
-	font-size:1rem;
-}
-.divider+div {
-  margin-top: 1rem;
-}
-
 #partners-logos {
   padding: 3rem 0rem;
 }
-.no-margin-bottom {
-	padding-bottom: 20px;
-	margin-bottom: 0px;
-}
+
 #search_bar {
   box-sizing: border-box!important;
 }
@@ -302,109 +291,86 @@ footer p {
 	padding-bottom: 0px;
 }
 
-/*#network {
-	margin-top: -50px;
-	padding-bottom: 50px;
-	padding-top: 50px;
-}*/
-#picto-location {
-	padding-top: 70px;
-}
-.logo {
-	padding: 20px!important;
-}
 .carousel .carousel-item {
 width: 350px;
 }
-/* Indicateurs slider 
-.indicators .indicator-item {
-  background-color: lightgrey!important;
-  height: 16px!important;
-  width: 16px!important;
+	/* 
+	***********************
+	
+	**    8. MODALS      **
+	
+	***********************
+	*/
+.modal-blockquote {
+	color: grey;
+}
+/* 
+	***********************
+	
+	**     9. DIVIDERS      **
+	
+	***********************
+	*/
+.divider+div {
+  margin-top: 1rem;
+}
+#divider-1 {
+		min-height:70vh;
+		background-size: cover;
+		background-image: url(../assets/img/divider-1.jpg);
+		background-attachment: fixed;
+		background-position: center;
+		background-color: black;
+		background-repeat: no-repeat;
+
+}
+#divider-2 {
+		min-height:70vh;
+		background-size: cover;
+		background-image: url(../assets/img/divider-2.jpeg);
+		background-attachment: fixed;
+		background-position: center;
+		background-color: black;
+		background-repeat: no-repeat;
+		
+}	
+/* 
+	***********************
+	
+	**    10. FOOTER     **
+	
+	***********************
+	*/
+footer {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+}
+.emphase {
+	margin: 20px 0;
+	padding-left: 1.5rem;
+	border-left-color: grey!important;
+	border-left-width: 3px;
+	border-left-style: solid;
+}
+footer h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+footer h3 {
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+footer p {
+	font-size:1rem;
 }
 
-.indicators .active {
-  background-color: rgba(25, 118, 72, 1)!important;
-}
-
-/* Slider css 
-.slider-css {
-  position: relative;
-  margin: 0 auto;
-  width: 320px;
-  overflow: hidden;
-}
-
-.mask {
-  position: absolute;
-  width: 100%;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: white;
-  opacity: 0.2;
-  z-index: 999;
-}
-
-.slides {
-  width: calc(320px * 7);
-  animation: slide 20s ease infinite 2s;
-}
-
-.slide {
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-*/
-@keyframes slide {
-  0% {
-    transform: translateX(0);
-  }
-  05% {
-    transform: translateX(0);
-  }
-  14.3% {
-    transform: translateX(-320px);
-  }
-  19.3% {
-    transform: translateX(-320px);
-  }
-  28.6% {
-    transform: translateX(-640px);
-  }
-  33.6% {
-    transform: translateX(-640px);
-  }
-  42.9% {
-    transform: translateX(-960px);
-  }
-  47.9% {
-    transform: translateX(-960px);
-  }
-  57.2% {
-    transform: translateX(-1280px);
-  }
-  62.2% {
-    transform: translateX(-1280px);
-  }
-  71.5% {
-    transform: translateX(-1600px);
-  }
-  76.5% {
-    transform: translateX(-1600px);
-  }
-  85.8% {
-    transform: translateX(-1920px);
-  }
-  90.8% {
-    transform: translateX(-1920px);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
+/* 
+	***********************
+	
+	**11.MEDIA QUERIES<3 **
+	
+	***********************
+	*/
 
 @media (min-width: 600px) {
 	nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
@@ -456,69 +422,5 @@ width: 350px;
   #pictos img {
     width: auto;
   }
-
- /* #network div img {
-    width: 45%;
-  }*/
-
- /* .slider-css {
-    width: 520px;
-  }
-
-  .slides {
-    width: calc(520px * 7);
-  }
-
-  .slider-css .slides .slide img {
-    width: 500px;
-  }*/
-
-  @keyframes slide {
-    0% {
-      transform: translateX(0);
-    }
-    05% {
-      transform: translateX(0);
-    }
-    14.3% {
-      transform: translateX(-520px);
-    }
-    19.3% {
-      transform: translateX(-520px);
-    }
-    28.6% {
-      transform: translateX(-1040px);
-    }
-    33.6% {
-      transform: translateX(-1040px);
-    }
-    42.9% {
-      transform: translateX(-1560px);
-    }
-    47.9% {
-      transform: translateX(-1560px);
-    }
-    57.2% {
-      transform: translateX(-2080px);
-    }
-    62.2% {
-      transform: translateX(-2080px);
-    }
-    71.5% {
-      transform: translateX(-2600px);
-    }
-    76.5% {
-      transform: translateX(-2600px);
-    }
-    85.8% {
-      transform: translateX(-3120px);
-    }
-    90.8% {
-      transform: translateX(-3120px);
-    }
-    100% {
-      transform: translateX(0);
-    }
-
 
 }

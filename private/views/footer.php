@@ -4,7 +4,7 @@
       		<div class="col l4">
         			<h2 class="">Headquarters</h2>
 			            <h3 class="">MEDILAB International UAE</h3>
-			           <p class="emphase">Office 12, Floor 7, Amenity center, Tower 1, <br/>Al Jazeera Al Hamra Ras Al Khaimah, P.O. Box 2436, United Arab Emirates<br/>
+			           <p class="emphase">Office 12, Floor 7, Amenity center, Tower 1, <br>Al Jazeera Al Hamra Ras Al Khaimah, P.O. Box 2436, United Arab Emirates<br/>
 			            Phone : <a href="tel:+44 20 7554 2222">+44 20 7554 2222</a><br/>
 			            Fax : +44 20 7554 2201<br/>
 			            Mail : <a href="mailto:uae@medilab.one">uae@medilab.one</a></p>
@@ -16,7 +16,7 @@
             <h3 class="">MEDILAB International UK</h3>
            <p class="emphase">41 Chalton Street, London, United Kingdom, NW1 1jD<br/>
             Phone : <a href="tel:+44 20 7554 2222">+44 20 7554 2222</a><br/>
-            Fax : +44 20 7554 2201</br>
+            Fax : +44 20 7554 2201<br>
             Mail : <a href="mailto:uk@medilab.one">uk@medilab.one</a>
 
 
@@ -38,7 +38,7 @@
  		</div><!--PAGE FOOTER-->
       <div class="footer-copyright center-align">
          <div class="container grey-text">
-         &copy&nbspCopyright 2017. All rights reserved
+         &copy; &nbsp; Copyright 2017. All rights reserved
          <span>|</span>
          <a class="modal-trigger grey-text" href="#modal1" >Legal informations</a>
             <div id="modal1" class="modal modal-fixed-footer">
